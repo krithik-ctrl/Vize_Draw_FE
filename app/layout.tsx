@@ -24,6 +24,9 @@ export const metadata: Metadata = {
       "Organize drawing sets, mark up sheets, track revisions, run takeoffs, and collaborate — built for drawings, not generic PDFs.",
     type: "website",
   },
+  verification: {
+    google: "lQ1vIuqN4nWM054GKBq2nl2D2Rs_49JuqvH_YIB_bLg",
+  },
 };
 
 export default function RootLayout({
@@ -45,6 +48,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
         {/* End Google Tag Manager */}
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-85L1FDHGF3" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-85L1FDHGF3');`,
+          }}
+        />
+        {/* End Google tag (gtag.js) */}
       </head>
       <body className="bg-ink font-sans text-vellum antialiased selection:bg-blueprint/30 selection:text-vellum">
         {/* Google Tag Manager (noscript) */}
