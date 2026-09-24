@@ -1,0 +1,97 @@
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Enterprise access architecture: organization, role-based permissions, audit trail, and security">
+  <defs>
+    <linearGradient id="ebg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#070B16"/>
+    </linearGradient>
+    <pattern id="egrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#4EBABD" stroke-width="0.5" stroke-opacity="0.09"/>
+    </pattern>
+    <radialGradient id="eglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#4EBABD" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#4EBABD" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="720" height="380" fill="url(#ebg)"/>
+  <rect width="720" height="380" fill="url(#egrid)"/>
+  <ellipse cx="150" cy="190" rx="150" ry="150" fill="url(#eglow)"/>
+
+  <!-- connectors -->
+  <g stroke="#4EBABD" stroke-width="1.2" stroke-opacity="0.5" fill="none">
+    <path d="M150 190 C 230 190, 250 90, 330 90"/>
+    <path d="M150 190 C 230 190, 250 190, 330 190"/>
+    <path d="M150 190 C 230 190, 250 290, 330 290"/>
+    <path d="M462 90 H540"/><path d="M462 190 H540"/><path d="M462 290 H540"/>
+  </g>
+  <g fill="#6FCFD1">
+    <circle cx="240" cy="140" r="2"/><circle cx="240" cy="190" r="2"/><circle cx="240" cy="240" r="2"/>
+  </g>
+
+  <!-- org / tenant node with shield -->
+  <g>
+    <circle cx="150" cy="190" r="46" fill="#0E1626" stroke="#4EBABD" stroke-width="1.6"/>
+    <path d="M150 162 l22 9 v16 c0 16 -11 27 -22 31 c-11 -4 -22 -15 -22 -31 v-16 z"
+          fill="#070B16" stroke="#6FCFD1" stroke-width="1.6"/>
+    <path d="M140 192 l7 7 13 -15" fill="none" stroke="#4EBABD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="150" y="258" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1" fill="#8A94A6">ORG · TENANT</text>
+  </g>
+
+  <!-- roles -->
+  <g font-family="'SF Pro Display', sans-serif">
+    <g>
+      <rect x="330" y="68" width="132" height="44" rx="8" fill="#0E1626" stroke="#1E2A42"/>
+      <circle cx="352" cy="90" r="7" fill="none" stroke="#6FCFD1" stroke-width="1.4"/>
+      <text x="370" y="86" font-size="12" fill="#ECEFF4">Admin</text>
+      <text x="370" y="100" font-family="'JetBrains Mono', monospace" font-size="8" fill="#5E6A80">full control</text>
+    </g>
+    <g>
+      <rect x="330" y="168" width="132" height="44" rx="8" fill="#0E1626" stroke="#1E2A42"/>
+      <circle cx="352" cy="190" r="7" fill="none" stroke="#6FCFD1" stroke-width="1.4"/>
+      <text x="370" y="186" font-size="12" fill="#ECEFF4">Reviewer</text>
+      <text x="370" y="200" font-family="'JetBrains Mono', monospace" font-size="8" fill="#5E6A80">markup · approve</text>
+    </g>
+    <g>
+      <rect x="330" y="268" width="132" height="44" rx="8" fill="#0E1626" stroke="#1E2A42"/>
+      <circle cx="352" cy="290" r="7" fill="none" stroke="#6FCFD1" stroke-width="1.4"/>
+      <text x="370" y="286" font-size="12" fill="#ECEFF4">Viewer</text>
+      <text x="370" y="300" font-family="'JetBrains Mono', monospace" font-size="8" fill="#5E6A80">read · share link</text>
+    </g>
+  </g>
+
+  <!-- audit / permission panel -->
+  <g>
+    <rect x="540" y="60" width="150" height="260" rx="10" fill="#0B1120" stroke="#1E2A42"/>
+    <text x="558" y="86" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1.5" fill="#5E6A80">AUDIT TRAIL</text>
+    <g font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#8A94A6">
+      <g>
+        <circle cx="560" cy="110" r="2.5" fill="#4EBABD"/>
+        <text x="572" y="113">share · revoked</text>
+      </g>
+      <g>
+        <circle cx="560" cy="138" r="2.5" fill="#FF6B4A"/>
+        <text x="572" y="141">role · updated</text>
+      </g>
+      <g>
+        <circle cx="560" cy="166" r="2.5" fill="#4EBABD"/>
+        <text x="572" y="169">sheet · approved</text>
+      </g>
+      <g>
+        <circle cx="560" cy="194" r="2.5" fill="#4EBABD"/>
+        <text x="572" y="197">export · logged</text>
+      </g>
+      <g>
+        <circle cx="560" cy="222" r="2.5" fill="#FFB23E"/>
+        <text x="572" y="225">login · SSO</text>
+      </g>
+    </g>
+    <line x1="552" y1="244" x2="678" y2="244" stroke="#1E2A42"/>
+    <text x="558" y="268" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1.5" fill="#5E6A80">COMPLIANCE</text>
+    <g>
+      <rect x="556" y="280" width="56" height="24" rx="12" fill="#4EBABD" fill-opacity="0.12" stroke="#4EBABD" stroke-opacity="0.5"/>
+      <text x="584" y="296" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#6FCFD1">SOC 2</text>
+      <rect x="620" y="280" width="58" height="24" rx="12" fill="#4EBABD" fill-opacity="0.12" stroke="#4EBABD" stroke-opacity="0.5"/>
+      <text x="649" y="296" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#6FCFD1">RBAC</text>
+    </g>
+  </g>
+</svg>

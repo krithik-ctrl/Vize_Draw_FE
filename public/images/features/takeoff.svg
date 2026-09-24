@@ -1,0 +1,422 @@
+<svg width="1456" height="820" viewBox="0 0 1456 820" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif">
+
+  <!-- Page background -->
+  <rect width="1456" height="820" fill="#F8FAFC"/>
+
+  <!-- ══════════════════════════════════
+       TOP NAV BAR (dark teal)
+  ═══════════════════════════════════════ -->
+  <rect width="1456" height="48" fill="#1B8C8C"/>
+
+  <!-- Page nav: ◀ 1 /1 ▶ -->
+  <text x="66" y="29" fill="rgba(255,255,255,0.6)" font-size="18" text-anchor="middle">‹</text>
+  <rect x="80" y="13" width="36" height="22" rx="4" fill="#FFFFFF" fill-opacity="0.15"/>
+  <text x="98" y="29" fill="#FFFFFF" font-size="14" font-weight="700" text-anchor="middle">1</text>
+  <text x="116" y="29" fill="rgba(255,255,255,0.5)" font-size="13">/1</text>
+  <text x="136" y="29" fill="rgba(255,255,255,0.6)" font-size="18">›</text>
+
+  <!-- separator -->
+  <line x1="152" y1="14" x2="152" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- Zoom controls -->
+  <text x="170" y="29" fill="rgba(255,255,255,0.7)" font-size="16" text-anchor="middle">−</text>
+  <text x="210" y="29" fill="#FFFFFF" font-size="14" font-weight="600" text-anchor="middle">88%</text>
+  <text x="250" y="29" fill="rgba(255,255,255,0.7)" font-size="16" text-anchor="middle">+</text>
+
+  <line x1="268" y1="14" x2="268" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- Toolbar icons: expand, crosshair, refresh, rotate, 3D -->
+  <rect x="276" y="14" width="20" height="20" rx="3" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <path d="M276 20 L280 16 M296 20 L292 16 M276 28 L280 32 M296 28 L292 32" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.2"/>
+  <!-- crosshair -->
+  <circle cx="316" cy="24" r="6" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <line x1="316" y1="14" x2="316" y2="18" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <line x1="316" y1="30" x2="316" y2="34" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <line x1="306" y1="24" x2="310" y2="24" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <line x1="322" y1="24" x2="326" y2="24" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <!-- refresh -->
+  <path d="M346 18 Q346 14 350 14 Q358 14 358 22 Q358 30 350 30 Q346 30 344 26" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <polygon points="342,28 348,24 342,20" fill="rgba(255,255,255,0.6)"/>
+  <!-- rotate icon -->
+  <path d="M374 18 Q380 14 386 18 Q392 24 386 30 Q380 36 374 30" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <polygon points="372,18 378,16 374,22" fill="rgba(255,255,255,0.6)"/>
+  <!-- 3D cube icon -->
+  <path d="M402 20 L410 16 L418 20 L418 30 L410 34 L402 30 Z" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <line x1="410" y1="16" x2="410" y2="34" stroke="rgba(255,255,255,0.6)" stroke-width="1.2"/>
+  <line x1="402" y1="20" x2="418" y2="20" stroke="rgba(255,255,255,0.6)" stroke-width="1.2"/>
+
+  <!-- Center: Rev 2 button -->
+  <rect x="600" y="12" width="90" height="26" rx="13" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="640" y="29" fill="#FFFFFF" font-size="13" font-weight="600" text-anchor="middle">⟳ Rev 2  ▾</text>
+  <!-- Share button -->
+  <rect x="702" y="12" width="76" height="26" rx="13" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <circle cx="716" cy="25" r="5" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+  <text x="748" y="29" fill="#FFFFFF" font-size="13" font-weight="500" text-anchor="middle">Share</text>
+  <!-- Bell with badge -->
+  <path d="M800 20 Q800 15 806 15 Q812 15 812 20 L814 30 L798 30 Z" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.4"/>
+  <path d="M804 30 Q806 34 808 30" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.4"/>
+  <circle cx="814" cy="16" r="7" fill="#EF4444"/>
+  <text x="814" y="20" fill="#FFFFFF" font-size="9" font-weight="700" text-anchor="middle">2</text>
+
+  <!-- Right: layout icons + Saved + icons + avatar -->
+  <line x1="836" y1="14" x2="836" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- layout icons -->
+  <rect x="848" y="15" width="18" height="18" rx="3" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="857" y1="15" x2="857" y2="33" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <rect x="874" y="15" width="18" height="18" rx="3" fill="rgba(255,255,255,0.1)"/>
+  <line x1="883" y1="15" x2="883" y2="33" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="848" y1="24" x2="866" y2="24" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <line x1="902" y1="14" x2="902" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- checkmark + Saved -->
+  <path d="M912 24 L916 28 L924 19" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="930" y="29" fill="rgba(255,255,255,0.8)" font-size="13">Saved</text>
+  <!-- download -->
+  <path d="M984 18 L984 26 M980 24 L984 28 L988 24" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.4" stroke-linecap="round"/>
+  <rect x="978" y="28" width="12" height="2" fill="rgba(255,255,255,0.4)"/>
+  <!-- moon -->
+  <path d="M1006 16 Q1000 22 1006 28 Q996 26 996 22 Q996 18 1006 16 Z" fill="rgba(255,255,255,0.7)"/>
+
+  <line x1="1020" y1="14" x2="1020" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- K avatar -->
+  <circle cx="1040" cy="24" r="14" fill="#22C55E" fill-opacity="0.85"/>
+  <text x="1040" y="29" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">K</text>
+  <!-- User info -->
+  <text x="1060" y="20" fill="#FFFFFF" font-size="13" font-weight="600">Kumar</text>
+  <text x="1060" y="34" fill="rgba(255,255,255,0.6)" font-size="11">Member · NaveenTechStudio</text>
+  <!-- menu icon -->
+  <line x1="1280" y1="18" x2="1300" y2="18" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+  <line x1="1280" y1="24" x2="1300" y2="24" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+  <line x1="1280" y1="30" x2="1300" y2="30" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+
+
+  <!-- ══════════════════════════════════
+       LEFT DARK TOOLBAR
+  ═══════════════════════════════════════ -->
+  <rect width="34" y="48" height="772" fill="#1A1F2E"/>
+
+  <!-- Toolbar icons (white/muted) -->
+  <!-- pointer/arrow -->
+  <path d="M10 66 L10 80 L13 76 L16 83 L18 82 L15 75 L19 75 Z" fill="rgba(255,255,255,0.7)"/>
+  <!-- pan hand -->
+  <path d="M8 104 Q8 100 12 100 Q14 100 14 102 L14 96 Q14 92 17 92 Q20 92 20 96 L20 100 Q20 97 23 97 Q26 97 26 100 L26 104 Q26 101 29 101 Q32 101 32 104 L32 110 Q32 118 24 118 L16 118 Q8 118 8 110 Z" fill="rgba(255,255,255,0.5)"/>
+  <!-- arrow up-right -->
+  <path d="M10 134 L24 120 M18 120 L24 120 L24 126" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- rectangle tool -->
+  <rect x="8" y="154" width="18" height="14" rx="2" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <!-- circle tool -->
+  <circle cx="17" cy="186" r="8" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <!-- cloud -->
+  <path d="M8 208 Q8 202 14 202 Q14 198 18 198 Q24 198 24 204 Q28 204 28 208 Q28 214 24 214 L12 214 Q8 214 8 210 Z" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.3"/>
+  <!-- pen/path -->
+  <path d="M10 232 L20 222 L26 228 L16 238 Z" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.3"/>
+  <circle cx="26" cy="228" r="2" fill="rgba(255,255,255,0.5)"/>
+  <!-- angle -->
+  <path d="M10 258 L10 270 L22 270" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- T text tool -->
+  <text x="17" y="295" fill="rgba(255,255,255,0.6)" font-size="14" font-weight="700" text-anchor="middle">T</text>
+  <!-- measure ruler -->
+  <line x1="8" y1="312" x2="26" y2="312" stroke="rgba(255,255,255,0.6)" stroke-width="1.3"/>
+  <line x1="8" y1="308" x2="8" y2="316" stroke="rgba(255,255,255,0.6)" stroke-width="1.3"/>
+  <line x1="26" y1="308" x2="26" y2="316" stroke="rgba(255,255,255,0.6)" stroke-width="1.3"/>
+  <!-- comment bubble -->
+  <path d="M8 334 Q8 328 14 328 L22 328 Q28 328 28 334 L28 340 Q28 346 22 346 L16 346 L12 350 L12 346 Q8 346 8 340 Z" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
+  <!-- stamp -->
+  <rect x="8" y="360" width="18" height="14" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
+  <line x1="8" y1="378" x2="26" y2="378" stroke="rgba(255,255,255,0.3)" stroke-width="1.3"/>
+  <!-- person -->
+  <circle cx="17" cy="402" r="5" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
+  <path d="M10 418 Q10 410 17 410 Q24 410 24 418" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
+  <!-- photo -->
+  <rect x="8" y="428" width="18" height="14" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
+  <circle cx="14" cy="433" r="3" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <path d="M8 438 L13 434 L18 440 L21 437 L26 442" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <!-- undo -->
+  <path d="M26 464 Q20 460 14 464 Q10 468 12 474" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="12,460 8,466 14,466" fill="rgba(255,255,255,0.6)"/>
+  <!-- redo -->
+  <path d="M10 494 Q16 490 22 494 Q26 498 24 504" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.4" stroke-linecap="round"/>
+  <polygon points="24,490 28,496 22,496" fill="rgba(255,255,255,0.6)"/>
+  <!-- copy/layers -->
+  <rect x="8" y="514" width="14" height="12" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
+  <rect x="12" y="518" width="14" height="12" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
+
+
+  <!-- ══════════════════════════════════
+       MAIN DRAWING CANVAS
+  ═══════════════════════════════════════ -->
+  <rect x="34" y="48" width="966" height="772" fill="#FFFFFF"/>
+
+  <!-- Teal vertical grid lines (column lines) -->
+  <line x1="110" y1="48" x2="110" y2="820" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <line x1="230" y1="48" x2="230" y2="820" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <line x1="390" y1="48" x2="390" y2="820" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <line x1="510" y1="48" x2="510" y2="820" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <line x1="640" y1="48" x2="640" y2="820" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <line x1="760" y1="48" x2="760" y2="820" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <line x1="880" y1="48" x2="880" y2="820" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+  <line x1="960" y1="48" x2="960" y2="820" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.7"/>
+
+  <!-- Black vertical structural lines between teal lines -->
+  <line x1="170" y1="48" x2="170" y2="820" stroke="#374151" stroke-width="1"/>
+  <line x1="310" y1="48" x2="310" y2="820" stroke="#374151" stroke-width="1"/>
+  <line x1="455" y1="48" x2="455" y2="820" stroke="#374151" stroke-width="1"/>
+  <line x1="575" y1="48" x2="575" y2="820" stroke="#374151" stroke-width="1"/>
+  <line x1="700" y1="48" x2="700" y2="820" stroke="#374151" stroke-width="1"/>
+  <line x1="820" y1="48" x2="820" y2="820" stroke="#374151" stroke-width="1"/>
+  <line x1="920" y1="48" x2="920" y2="820" stroke="#374151" stroke-width="1"/>
+
+  <!-- ─── Top horizontal beam: W30X116 ─── -->
+  <line x1="34" y1="170" x2="1000" y2="170" stroke="#111827" stroke-width="2.5"/>
+  <!-- beam endpoints: small squares at column intersections -->
+  <rect x="226" y="165" width="8" height="10" fill="#FFFFFF" stroke="#374151" stroke-width="1.2"/>
+  <rect x="386" y="165" width="8" height="10" fill="none" stroke="#374151" stroke-width="1.2"/>
+  <rect x="506" y="165" width="8" height="10" fill="#FFFFFF" stroke="#374151" stroke-width="1.2"/>
+  <rect x="506" y="165" width="8" height="10" fill="#22D3EE" fill-opacity="0.3" stroke="#22D3EE" stroke-width="1.2"/>
+  <rect x="636" y="165" width="8" height="10" fill="none" stroke="#374151" stroke-width="1.2"/>
+  <rect x="756" y="165" width="8" height="10" fill="none" stroke="#374151" stroke-width="1.2"/>
+  <!-- diagonal tick line at 760 area -->
+  <line x1="756" y1="155" x2="774" y2="185" stroke="#374151" stroke-width="1.3"/>
+  <rect x="818" y="165" width="8" height="10" fill="#FFFFFF" stroke="#374151" stroke-width="1.2"/>
+  <!-- W30X116 label (left) -->
+  <text x="270" y="160" fill="#111827" font-size="15" font-weight="600">W30X116</text>
+  <!-- W30X116 label (right) -->
+  <text x="608" y="160" fill="#111827" font-size="15" font-weight="600">W30X116</text>
+
+  <!-- ─── W18X35 column markers (orange/amber rectangles with labels) ─── -->
+  <!-- Column 1 – partial at left edge -->
+  <rect x="34" y="220" width="20" height="95" rx="2" fill="#D97706" fill-opacity="0.85"/>
+  <!-- Column 1 label (rotated W18X35) -->
+  <text transform="translate(44,270) rotate(-90)" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">/16"</text>
+
+  <!-- Column 2 -->
+  <rect x="156" y="220" width="28" height="95" rx="2" fill="#D97706" fill-opacity="0.85"/>
+  <text transform="translate(170,280) rotate(-90)" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">W18X35</text>
+  <!-- dim label -->
+  <rect x="200" y="310" width="72" height="20" rx="3" fill="#1E3A5F"/>
+  <text x="236" y="324" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">40'-3/16"</text>
+
+  <!-- Column 3 -->
+  <rect x="278" y="220" width="28" height="95" rx="2" fill="#D97706" fill-opacity="0.85"/>
+  <text transform="translate(292,280) rotate(-90)" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">W18X35</text>
+  <!-- dim label -->
+  <rect x="322" y="310" width="72" height="20" rx="3" fill="#1E3A5F"/>
+  <text x="358" y="324" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">40'-3/16"</text>
+
+  <!-- Column 4 (selected — yellow) -->
+  <rect x="436" y="220" width="28" height="95" rx="2" fill="#EAB308"/>
+  <text transform="translate(450,280) rotate(-90)" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">W18X35</text>
+  <!-- dim label for col4 -->
+  <rect x="476" y="310" width="72" height="20" rx="3" fill="#78350F"/>
+  <text x="512" y="324" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">40'-3/16"</text>
+
+  <!-- Column 5 (tall / extended selection highlight) -->
+  <rect x="498" y="48" width="24" height="772" rx="0" fill="#EAB308" fill-opacity="0.9"/>
+
+  <!-- Column 6 -->
+  <rect x="560" y="220" width="28" height="95" rx="2" fill="#D97706" fill-opacity="0.85"/>
+  <text transform="translate(574,280) rotate(-90)" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">W18X35</text>
+  <!-- dim label -->
+  <rect x="598" y="310" width="72" height="20" rx="3" fill="#1E3A5F"/>
+  <text x="634" y="324" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">40'-3/16"</text>
+
+  <!-- Column 7 -->
+  <rect x="688" y="220" width="28" height="95" rx="2" fill="#D97706" fill-opacity="0.85"/>
+  <text transform="translate(702,280) rotate(-90)" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">W18X35</text>
+  <!-- dim label -->
+  <rect x="718" y="310" width="72" height="20" rx="3" fill="#1E3A5F"/>
+  <text x="754" y="324" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">40'-3/16"</text>
+
+  <!-- Column 8 – at teal line 760, small indicator -->
+  <text x="752" y="342" fill="#374151" font-size="11" text-anchor="middle">☾</text>
+
+  <!-- Column 9 -->
+  <rect x="812" y="220" width="28" height="95" rx="2" fill="#D97706" fill-opacity="0.85"/>
+  <text transform="translate(826,280) rotate(-90)" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">W18X35</text>
+  <!-- dim label -->
+  <rect x="852" y="310" width="72" height="20" rx="3" fill="#1E3A5F"/>
+  <text x="888" y="324" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">40'-3/16"</text>
+
+  <!-- Column 10 -->
+  <rect x="922" y="220" width="28" height="95" rx="2" fill="#D97706" fill-opacity="0.85"/>
+  <text transform="translate(936,280) rotate(-90)" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">W18X35</text>
+
+  <!-- ─── Middle horizontal beam: W30X99 ─── -->
+  <line x1="34" y1="510" x2="1000" y2="510" stroke="#111827" stroke-width="2.5"/>
+  <rect x="226" y="505" width="8" height="10" fill="#FFFFFF" stroke="#374151" stroke-width="1.2"/>
+  <rect x="386" y="505" width="8" height="10" fill="none" stroke="#374151" stroke-width="1.2"/>
+  <rect x="506" y="505" width="8" height="10" fill="#22D3EE" fill-opacity="0.3" stroke="#22D3EE" stroke-width="1.2"/>
+  <rect x="636" y="505" width="8" height="10" fill="none" stroke="#374151" stroke-width="1.2"/>
+  <rect x="756" y="505" width="8" height="10" fill="none" stroke="#374151" stroke-width="1.2"/>
+  <rect x="818" y="505" width="8" height="10" fill="#FFFFFF" stroke="#374151" stroke-width="1.2"/>
+  <!-- W30X99 labels -->
+  <text x="250" y="498" fill="#111827" font-size="15" font-weight="600">W30X99</text>
+  <text x="594" y="498" fill="#111827" font-size="15" font-weight="600">W30X99</text>
+
+  <!-- ─── Horizontal dimension arrows for 100'-5/8" ─── -->
+  <!-- left dimension: 100'-5/8" at y=515 -->
+  <line x1="110" y1="522" x2="230" y2="522" stroke="#374151" stroke-width="1.3"/>
+  <polygon points="112,519 106,522 112,525" fill="#374151"/>
+  <polygon points="228,519 234,522 228,525" fill="#374151"/>
+  <rect x="124" y="515" width="82" height="18" rx="3" fill="#1E3A5F"/>
+  <text x="165" y="527" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">100'-5/8"</text>
+  <!-- right dimension: 100'-5/8" -->
+  <line x1="760" y1="522" x2="880" y2="522" stroke="#374151" stroke-width="1.3"/>
+  <polygon points="762,519 756,522 762,525" fill="#374151"/>
+  <polygon points="878,519 884,522 878,525" fill="#374151"/>
+  <rect x="774" y="515" width="82" height="18" rx="3" fill="#1E3A5F"/>
+  <text x="815" y="527" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">100'-5/8"</text>
+
+  <!-- ─── Bottom column labels X50 (rotated) ─── -->
+  <text transform="translate(70,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <text transform="translate(170,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <text transform="translate(280,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <text transform="translate(390,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <text transform="translate(500,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <text transform="translate(610,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <text transform="translate(720,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <text transform="translate(820,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <text transform="translate(920,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+  <!-- partial labels with X prefix only -->
+  <text transform="translate(90,790) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X</text>
+  <text transform="translate(740,800) rotate(-90)" fill="#374151" font-size="14" font-weight="500" text-anchor="middle">X50</text>
+
+  <!-- right edge vertical rule -->
+  <line x1="1000" y1="48" x2="1000" y2="820" stroke="#E5E7EB" stroke-width="1"/>
+
+
+  <!-- ══════════════════════════════════
+       RIGHT SIDEBAR (icon strip, very narrow)
+  ═══════════════════════════════════════ -->
+  <rect x="1000" y="48" width="30" height="772" fill="#F1F5F9"/>
+  <line x1="1000" y1="48" x2="1000" y2="820" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- sidebar icons -->
+  <circle cx="1015" cy="100" r="6" fill="none" stroke="#94A3B8" stroke-width="1.3"/>
+  <text x="1015" y="150" fill="#94A3B8" font-size="12" text-anchor="middle">⊟</text>
+  <text x="1015" y="200" fill="#94A3B8" font-size="12" text-anchor="middle">☰</text>
+  <text x="1015" y="250" fill="#94A3B8" font-size="12" text-anchor="middle">⊞</text>
+  <text x="1015" y="300" fill="#94A3B8" font-size="12" text-anchor="middle">⊙</text>
+  <text x="1015" y="350" fill="#94A3B8" font-size="12" text-anchor="middle">⊕</text>
+
+
+  <!-- ══════════════════════════════════
+       SEARCH PANEL (right side, white)
+  ═══════════════════════════════════════ -->
+  <rect x="1030" y="48" width="426" height="772" fill="#FFFFFF"/>
+  <line x1="1030" y1="48" x2="1030" y2="820" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Search panel header -->
+  <rect x="1030" y="48" width="426" height="48" fill="#FFFFFF"/>
+  <line x1="1030" y1="96" x2="1456" y2="96" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1052" y="78" fill="#111827" font-size="15" font-weight="700">Search</text>
+  <!-- × close -->
+  <text x="1442" y="78" fill="#6B7280" font-size="18" text-anchor="middle">×</text>
+
+  <!-- Search input -->
+  <rect x="1044" y="104" width="368" height="38" rx="8" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1.3"/>
+  <!-- search icon -->
+  <circle cx="1062" cy="123" r="6" fill="none" stroke="#9CA3AF" stroke-width="1.5"/>
+  <line x1="1067" y1="128" x2="1072" y2="133" stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- W18X35 text in input -->
+  <text x="1080" y="127" fill="#111827" font-size="14" font-weight="500">W18X35</text>
+  <!-- clear X in input -->
+  <text x="1404" y="127" fill="#9CA3AF" font-size="16" text-anchor="middle">×</text>
+
+  <!-- Match count row -->
+  <text x="1044" y="162" fill="#374151" font-size="13">68 matches across 1 page</text>
+  <text x="1230" y="162" fill="#9CA3AF" font-size="12"> · Press Enter to jump</text>
+
+  <!-- Save all button (blue) -->
+  <rect x="1220" y="148" width="208" height="32" rx="8" fill="#3B82F6"/>
+  <text x="1238" y="168" fill="#FFFFFF" font-size="12">💾</text>
+  <text x="1256" y="168" fill="#FFFFFF" font-size="13" font-weight="600">Save all 68 as profile</text>
+
+  <!-- PDF TEXT separator -->
+  <line x1="1044" y1="192" x2="1412" y2="192" stroke="#F3F4F6" stroke-width="1"/>
+  <rect x="1044" y="196" width="426" height="32" fill="#F9FAFB"/>
+  <text x="1052" y="217" fill="#6B7280" font-size="12" font-weight="600" letter-spacing="0.3">PDF TEXT</text>
+  <text x="1120" y="217" fill="#374151" font-size="13" font-weight="600">68</text>
+
+  <!-- PAGE 1 sub-header -->
+  <rect x="1044" y="228" width="426" height="28" fill="#F3F4F6"/>
+  <text x="1052" y="246" fill="#9CA3AF" font-size="12" font-weight="600" letter-spacing="0.3">PAGE 1</text>
+  <text x="1100" y="246" fill="#374151" font-size="12" font-weight="500">68</text>
+
+  <!-- Search result rows -->
+  <!-- #1 -->
+  <rect x="1030" y="256" width="426" height="44" fill="#FFFFFF"/>
+  <line x1="1030" y1="300" x2="1456" y2="300" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="1052" y="274" fill="#9CA3AF" font-size="12">#1</text>
+  <text x="1074" y="274" fill="#374151" font-size="13">W21X50 </text>
+  <rect x="1134" y="262" width="50" height="18" rx="3" fill="#FEF3C7"/>
+  <text x="1159" y="275" fill="#92400E" font-size="13" font-weight="600" text-anchor="middle">W18X35</text>
+  <text x="1186" y="274" fill="#374151" font-size="13"> W18X35W21X50</text>
+
+  <!-- #2 -->
+  <rect x="1030" y="300" width="426" height="44" fill="#FFFFFF"/>
+  <line x1="1030" y1="344" x2="1456" y2="344" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="1052" y="326" fill="#9CA3AF" font-size="12">#2</text>
+  <text x="1074" y="326" fill="#374151" font-size="13">W21X50 </text>
+  <rect x="1134" y="314" width="50" height="18" rx="3" fill="#FEF3C7"/>
+  <text x="1159" y="327" fill="#92400E" font-size="13" font-weight="600" text-anchor="middle">W18X35</text>
+  <text x="1186" y="326" fill="#374151" font-size="13"> W18X35W21X50</text>
+
+  <!-- #3 -->
+  <rect x="1030" y="344" width="426" height="44" fill="#FFFFFF"/>
+  <line x1="1030" y1="388" x2="1456" y2="388" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="1052" y="370" fill="#9CA3AF" font-size="12">#3</text>
+  <rect x="1074" y="358" width="50" height="18" rx="3" fill="#FEF3C7"/>
+  <text x="1099" y="371" fill="#92400E" font-size="13" font-weight="600" text-anchor="middle">W18X35</text>
+
+  <!-- #4 (active row — yellow background) -->
+  <rect x="1030" y="388" width="426" height="44" fill="#FEF3C7"/>
+  <line x1="1030" y1="432" x2="1456" y2="432" stroke="#FDE68A" stroke-width="1"/>
+  <text x="1052" y="414" fill="#9CA3AF" font-size="12">#4</text>
+  <rect x="1074" y="402" width="50" height="18" rx="3" fill="#F59E0B"/>
+  <text x="1099" y="415" fill="#FFFFFF" font-size="13" font-weight="700" text-anchor="middle">W18X35</text>
+
+  <!-- #5 -->
+  <rect x="1030" y="432" width="426" height="44" fill="#FFFFFF"/>
+  <line x1="1030" y1="476" x2="1456" y2="476" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="1052" y="458" fill="#9CA3AF" font-size="12">#5</text>
+  <rect x="1074" y="446" width="50" height="18" rx="3" fill="#FEF3C7"/>
+  <text x="1099" y="459" fill="#92400E" font-size="13" font-weight="600" text-anchor="middle">W18X35</text>
+
+  <!-- #6 -->
+  <rect x="1030" y="476" width="426" height="44" fill="#FFFFFF"/>
+  <line x1="1030" y1="520" x2="1456" y2="520" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="1052" y="502" fill="#9CA3AF" font-size="12">#6</text>
+  <rect x="1074" y="490" width="50" height="18" rx="3" fill="#FEF3C7"/>
+  <text x="1099" y="503" fill="#92400E" font-size="13" font-weight="600" text-anchor="middle">W18X35</text>
+
+  <!-- #7 -->
+  <rect x="1030" y="520" width="426" height="44" fill="#FFFFFF"/>
+  <line x1="1030" y1="564" x2="1456" y2="564" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="1052" y="546" fill="#9CA3AF" font-size="12">#7</text>
+  <rect x="1074" y="534" width="50" height="18" rx="3" fill="#FEF3C7"/>
+  <text x="1099" y="547" fill="#92400E" font-size="13" font-weight="600" text-anchor="middle">W18X35</text>
+
+  <!-- #8 (partially visible) -->
+  <rect x="1030" y="564" width="426" height="44" fill="#FFFFFF"/>
+  <line x1="1030" y1="608" x2="1456" y2="608" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="1052" y="590" fill="#9CA3AF" font-size="12">#8</text>
+  <rect x="1074" y="578" width="50" height="18" rx="3" fill="#FEF3C7"/>
+  <text x="1099" y="591" fill="#92400E" font-size="13" font-weight="600" text-anchor="middle">W18X35</text>
+
+  <!-- #9 fading out -->
+  <rect x="1030" y="608" width="426" height="44" fill="#FFFFFF" fill-opacity="0.4"/>
+  <text x="1052" y="634" fill="#9CA3AF" font-size="12" fill-opacity="0.4">#9</text>
+  <rect x="1074" y="622" width="50" height="18" rx="3" fill="#FEF3C7" fill-opacity="0.4"/>
+  <text x="1099" y="635" fill="#92400E" font-size="13" font-weight="600" text-anchor="middle" fill-opacity="0.4">W18X35</text>
+
+  <!-- right sidebar icons (right edge of search panel) -->
+  <rect x="1426" y="48" width="30" height="772" fill="#F8FAFC"/>
+  <line x1="1426" y1="48" x2="1426" y2="820" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1441" y="110" fill="#94A3B8" font-size="12" text-anchor="middle">⊟</text>
+  <text x="1441" y="160" fill="#94A3B8" font-size="12" text-anchor="middle">☰</text>
+  <text x="1441" y="210" fill="#94A3B8" font-size="12" text-anchor="middle">⊞</text>
+  <text x="1441" y="260" fill="#94A3B8" font-size="12" text-anchor="middle">⊙</text>
+  <text x="1441" y="310" fill="#94A3B8" font-size="12" text-anchor="middle">⊕</text>
+  <text x="1441" y="360" fill="#94A3B8" font-size="12" text-anchor="middle">⊗</text>
+
+</svg>

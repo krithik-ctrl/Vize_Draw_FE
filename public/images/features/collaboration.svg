@@ -1,0 +1,572 @@
+<svg width="1456" height="820" viewBox="0 0 1456 820" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif">
+
+  <!-- Page background -->
+  <rect width="1456" height="820" fill="#F3F4F6"/>
+
+  <!-- ══════════════════════════════════
+       TOP NAV BAR (dark teal)
+  ═══════════════════════════════════════ -->
+  <rect width="1456" height="44" fill="#1B8C8C"/>
+
+  <!-- Back arrow + file name -->
+  <path d="M14 22 L22 15 M14 22 L22 29" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="30" y="17" fill="#FFFFFF" font-size="13" font-weight="700">Oh-CAPA Music Hall.pdf</text>
+  <text x="30" y="32" fill="rgba(255,255,255,0.65)" font-size="11">22 pages</text>
+
+  <!-- Page nav -->
+  <text x="300" y="26" fill="rgba(255,255,255,0.6)" font-size="18">‹</text>
+  <rect x="316" y="13" width="32" height="20" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <text x="332" y="27" fill="#FFFFFF" font-size="13" font-weight="700" text-anchor="middle">1</text>
+  <text x="350" y="27" fill="rgba(255,255,255,0.5)" font-size="12">/ 22</text>
+  <text x="376" y="26" fill="rgba(255,255,255,0.6)" font-size="18">›</text>
+
+  <line x1="394" y1="10" x2="394" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- Zoom -->
+  <text x="408" y="26" fill="rgba(255,255,255,0.7)" font-size="16">−</text>
+  <text x="444" y="26" fill="#FFFFFF" font-size="13" font-weight="600" text-anchor="middle">71%</text>
+  <text x="472" y="26" fill="rgba(255,255,255,0.7)" font-size="16">+</text>
+
+  <line x1="490" y1="10" x2="490" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- Toolbar icons -->
+  <path d="M502 14 L518 14 L518 30 L502 30 Z M502 22 L518 22 M510 14 L510 30" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.2"/>
+  <circle cx="542" cy="22" r="6" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <line x1="542" y1="12" x2="542" y2="16" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <line x1="542" y1="28" x2="542" y2="32" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <line x1="532" y1="22" x2="536" y2="22" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <line x1="548" y1="22" x2="552" y2="22" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <!-- refresh -->
+  <path d="M568 16 Q572 12 578 14 Q584 17 582 24 Q580 30 574 30 Q568 30 567 24" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <polygon points="566,18 572,14 565,13" fill="rgba(255,255,255,0.55)"/>
+  <!-- arrows cycle -->
+  <path d="M594 18 Q600 12 606 16 Q610 19 608 24" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <path d="M620 26 Q614 32 608 28 Q604 25 606 20" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <!-- 3D -->
+  <path d="M634 14 L642 18 L650 14 L650 28 L642 32 L634 28 Z" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.2"/>
+  <line x1="642" y1="18" x2="642" y2="32" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <line x1="634" y1="21" x2="650" y2="21" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+
+  <!-- Rev 2 button -->
+  <rect x="750" y="10" width="88" height="24" rx="12" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="793" y="26" fill="#FFFFFF" font-size="12" font-weight="600" text-anchor="middle">⟳  Rev 2  ▾</text>
+
+  <!-- SA avatar (pink) -->
+  <circle cx="856" cy="22" r="14" fill="#EC4899"/>
+  <text x="856" y="27" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">SA</text>
+
+  <!-- Share button -->
+  <rect x="876" y="10" width="72" height="24" rx="12" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="912" y="26" fill="#FFFFFF" font-size="12" font-weight="500" text-anchor="middle">⇗ Share</text>
+
+  <!-- Bell with badge -->
+  <path d="M960 18 Q960 13 965 13 Q970 13 970 18 L972 28 L958 28 Z" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.3"/>
+  <path d="M962 28 Q964 32 966 28" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="1.3"/>
+  <circle cx="972" cy="14" r="6" fill="#EF4444"/>
+  <text x="972" y="18" fill="#FFFFFF" font-size="8" font-weight="700" text-anchor="middle">2</text>
+
+  <line x1="988" y1="10" x2="988" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- Layout icons -->
+  <rect x="996" y="13" width="18" height="18" rx="2" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="1005" y1="13" x2="1005" y2="31" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <rect x="1022" y="13" width="18" height="18" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <line x1="1031" y1="13" x2="1031" y2="31" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+
+  <line x1="1050" y1="10" x2="1050" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- No changes -->
+  <path d="M1060 22 L1064 26 L1072 17" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="1078" y="26" fill="rgba(255,255,255,0.8)" font-size="12">No changes</text>
+  <!-- download -->
+  <path d="M1152 16 L1152 24 M1148 22 L1152 26 L1156 22" fill="none" stroke="rgba(255,255,255,0.65)" stroke-width="1.3" stroke-linecap="round"/>
+  <!-- moon -->
+  <path d="M1172 14 Q1166 20 1172 26 Q1162 24 1162 20 Q1162 16 1172 14 Z" fill="rgba(255,255,255,0.65)"/>
+
+  <line x1="1184" y1="10" x2="1184" y2="34" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- K avatar -->
+  <circle cx="1202" cy="22" r="13" fill="#22C55E" fill-opacity="0.85"/>
+  <text x="1202" y="27" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">K</text>
+  <!-- User info -->
+  <text x="1220" y="18" fill="#FFFFFF" font-size="12" font-weight="700">Kumar</text>
+  <text x="1220" y="31" fill="rgba(255,255,255,0.6)" font-size="10">Member · NaveenTechStudio</text>
+  <!-- hamburger -->
+  <line x1="1420" y1="16" x2="1440" y2="16" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <line x1="1420" y1="22" x2="1440" y2="22" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+  <line x1="1420" y1="28" x2="1440" y2="28" stroke="rgba(255,255,255,0.6)" stroke-width="1.4"/>
+
+
+  <!-- ══════════════════════════════════
+       LEFT SIDEBAR
+  ═══════════════════════════════════════ -->
+  <rect x="0" y="44" width="264" height="776" fill="#FFFFFF"/>
+  <line x1="264" y1="44" x2="264" y2="820" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- PROJECT section -->
+  <rect x="0" y="44" width="264" height="32" fill="#F9FAFB"/>
+  <line x1="0" y1="76" x2="264" y2="76" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="14" y="64" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.5">▾  PROJECT</text>
+
+  <!-- Project name -->
+  <rect x="0" y="76" width="264" height="30" fill="#FFFFFF"/>
+  <text x="22" y="96" fill="#111827" font-size="13" font-weight="600">Maple Tower</text>
+
+  <!-- Drawings section -->
+  <rect x="0" y="106" width="264" height="26" fill="#FFFFFF"/>
+  <text x="22" y="124" fill="#374151" font-size="12" font-weight="600">▾  Drawings</text>
+
+  <!-- File list -->
+  <!-- 13. 60_ Flex -->
+  <rect x="0" y="132" width="264" height="38" fill="#FFFFFF"/>
+  <text x="32" y="148" fill="#374151" font-size="11">13. 60_ Flex (MI) 2025-11-21.pdf</text>
+  <text x="32" y="162" fill="#9CA3AF" font-size="10">1 pg</text>
+  <!-- S-102A-BB.pdf -->
+  <rect x="0" y="170" width="264" height="38" fill="#FFFFFF"/>
+  <text x="32" y="186" fill="#374151" font-size="11">S-102A-BB.pdf</text>
+  <text x="32" y="200" fill="#9CA3AF" font-size="10">22 pg</text>
+  <!-- Oh-CAPA Music Hall.pdf (active) -->
+  <rect x="0" y="208" width="264" height="38" fill="#EFF6FF"/>
+  <rect x="0" y="208" width="3" height="38" fill="#3B82F6"/>
+  <text x="32" y="224" fill="#1D4ED8" font-size="11" font-weight="600">Oh-CAPA Music Hall.pdf</text>
+  <text x="32" y="238" fill="#6B7280" font-size="10">22 pg</text>
+  <!-- Issued sets -->
+  <rect x="0" y="246" width="264" height="26" fill="#FFFFFF"/>
+  <text x="32" y="264" fill="#374151" font-size="11">Issued sets</text>
+  <!-- Archive -->
+  <rect x="0" y="272" width="264" height="26" fill="#FFFFFF"/>
+  <text x="32" y="290" fill="#374151" font-size="11">Archive</text>
+
+  <line x1="0" y1="298" x2="264" y2="298" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- CURRENT REVISION -->
+  <rect x="0" y="298" width="264" height="26" fill="#F9FAFB"/>
+  <text x="14" y="316" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.5">CURRENT REVISION</text>
+  <rect x="160" y="304" width="96" height="22" rx="5" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="176" y="319" fill="#374151" font-size="10">↗ Manage revisions</text>
+
+  <!-- Rev 2 ACTIVE -->
+  <rect x="0" y="324" width="264" height="60" fill="#FFFFFF"/>
+  <text x="14" y="344" fill="#111827" font-size="16" font-weight="700">Rev 2</text>
+  <rect x="72" y="333" width="48" height="16" rx="8" fill="#D1FAE5"/>
+  <text x="96" y="344" fill="#059669" font-size="9" font-weight="700" text-anchor="middle">ACTIVE</text>
+  <text x="14" y="362" fill="#6B7280" font-size="11">Sent on 09 Jun 2026</text>
+
+  <!-- stats row -->
+  <rect x="0" y="384" width="264" height="40" fill="#FFFFFF"/>
+  <line x1="0" y1="384" x2="264" y2="384" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="14" y="398" fill="#6B7280" font-size="10">2</text>
+  <text x="14" y="410" fill="#9CA3AF" font-size="9">Revisions</text>
+  <line x1="56" y1="386" x2="56" y2="422" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="66" y="398" fill="#6B7280" font-size="10">09 Jun 2026</text>
+  <text x="66" y="410" fill="#9CA3AF" font-size="9">Latest</text>
+  <line x1="148" y1="386" x2="148" y2="422" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="158" y="398" fill="#6B7280" font-size="10">22</text>
+  <text x="158" y="410" fill="#9CA3AF" font-size="9">Sheets</text>
+
+  <line x1="0" y1="424" x2="264" y2="424" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- REVISION HISTORY -->
+  <rect x="0" y="424" width="264" height="26" fill="#F9FAFB"/>
+  <text x="14" y="442" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.5">REVISION HISTORY</text>
+  <text x="230" y="442" fill="#9CA3AF" font-size="12">▾</text>
+
+  <!-- Rev 2 card -->
+  <rect x="0" y="450" width="264" height="56" fill="#FFFFFF"/>
+  <circle cx="22" cy="472" r="7" fill="#22C55E"/>
+  <path d="M18 472 L21 475 L27 469" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="36" y="468" fill="#374151" font-size="13" font-weight="700">Rev 2</text>
+  <rect x="80" y="460" width="56" height="15" rx="7" fill="#D1FAE5"/>
+  <text x="108" y="471" fill="#059669" font-size="9" font-weight="700" text-anchor="middle">CURRENT</text>
+  <text x="240" y="468" fill="#9CA3AF" font-size="14">⋯</text>
+  <text x="36" y="483" fill="#9CA3AF" font-size="10">Sent on 09 Jun 2026</text>
+  <text x="36" y="497" fill="#9CA3AF" font-size="10">22 sheets</text>
+
+  <!-- Rev 1 card -->
+  <rect x="0" y="506" width="264" height="56" fill="#FFFFFF"/>
+  <circle cx="22" cy="528" r="7" fill="#F97316"/>
+  <text x="22" y="532" fill="#FFFFFF" font-size="10" text-anchor="middle">!</text>
+  <text x="36" y="524" fill="#374151" font-size="13" font-weight="700">Rev 1</text>
+  <rect x="80" y="516" width="40" height="15" rx="7" fill="#FEF3C7"/>
+  <text x="100" y="527" fill="#D97706" font-size="9" font-weight="700" text-anchor="middle">DRAFT</text>
+  <text x="240" y="524" fill="#9CA3AF" font-size="14">⋯</text>
+  <text x="36" y="539" fill="#9CA3AF" font-size="10">Sent on 08 Jun 2026</text>
+  <text x="36" y="553" fill="#9CA3AF" font-size="10">3 sheets</text>
+
+  <line x1="0" y1="562" x2="264" y2="562" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- SHEETS 22 -->
+  <rect x="0" y="562" width="264" height="26" fill="#F9FAFB"/>
+  <text x="14" y="580" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.5">SHEETS</text>
+  <text x="72" y="580" fill="#374151" font-size="11" font-weight="600">22</text>
+
+  <!-- Sheet rows -->
+  <!-- Page 1 (active) -->
+  <rect x="0" y="588" width="264" height="50" fill="#EFF6FF"/>
+  <rect x="0" y="588" width="3" height="50" fill="#1B8C8C"/>
+  <text x="14" y="605" fill="#374151" font-size="12" font-weight="600">Page</text>
+  <text x="14" y="620" fill="#374151" font-size="11">Page 1</text>
+  <text x="14" y="633" fill="#9CA3AF" font-size="10">Rev 2 · No markups · draft</text>
+
+  <!-- Page 2 -->
+  <rect x="0" y="638" width="264" height="50" fill="#FFFFFF"/>
+  <line x1="0" y1="638" x2="264" y2="638" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="14" y="655" fill="#374151" font-size="12" font-weight="600">Page</text>
+  <text x="14" y="670" fill="#374151" font-size="11">Page 2</text>
+  <text x="14" y="683" fill="#9CA3AF" font-size="10">Rev 2 · No markups · draft</text>
+
+  <!-- Page 3 -->
+  <rect x="0" y="688" width="264" height="50" fill="#FFFFFF"/>
+  <line x1="0" y1="688" x2="264" y2="688" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="14" y="705" fill="#374151" font-size="12" font-weight="600">Page</text>
+  <text x="14" y="720" fill="#374151" font-size="11">Page 3</text>
+  <text x="14" y="733" fill="#9CA3AF" font-size="10">Rev 2 · No markups · draft</text>
+
+  <!-- Page 4 -->
+  <rect x="0" y="738" width="264" height="50" fill="#FFFFFF"/>
+  <line x1="0" y1="738" x2="264" y2="738" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="14" y="755" fill="#374151" font-size="12" font-weight="600">Page</text>
+  <text x="14" y="770" fill="#374151" font-size="11">Page 4</text>
+  <text x="14" y="783" fill="#9CA3AF" font-size="10">Rev 2 · No markups · draft</text>
+
+  <!-- Page (5, partially visible) -->
+  <rect x="0" y="788" width="264" height="32" fill="#FFFFFF"/>
+  <line x1="0" y1="788" x2="264" y2="788" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="14" y="808" fill="#374151" font-size="12" font-weight="600">Page</text>
+
+
+  <!-- ══════════════════════════════════
+       LEFT DARK TOOLBAR
+  ═══════════════════════════════════════ -->
+  <rect x="264" y="44" width="30" height="750" fill="#1A1F2E"/>
+  <line x1="294" y1="44" x2="294" y2="794" stroke="#374151" stroke-width="0.5"/>
+
+  <!-- X/select (active) -->
+  <text x="279" y="74" fill="rgba(255,255,255,0.85)" font-size="14" font-weight="300" text-anchor="middle">✕</text>
+  <!-- pan hand -->
+  <path d="M271 96 Q271 92 275 92 Q277 92 277 94 L277 88 Q277 85 280 85 Q283 85 283 88 L283 92 Q283 89 286 89 Q289 89 289 92 L289 96 Q289 93 292 93 Q295 93 295 96 L295 103 Q295 109 288 109 L277 109 Q271 109 271 103 Z" fill="rgba(255,255,255,0.5)"/>
+  <!-- arrow up-right -->
+  <path d="M272 128 L284 116 M278 116 L284 116 L284 122" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3" stroke-linecap="round"/>
+  <!-- rectangle -->
+  <rect x="272" y="142" width="18" height="13" rx="2" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <!-- circle -->
+  <circle cx="281" cy="172" r="7" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <!-- cloud -->
+  <path d="M270 196 Q270 191 276 191 Q276 188 280 188 Q285 188 285 193 Q289 193 289 196 Q289 200 285 200 L275 200 Q270 200 270 197 Z" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <!-- pen -->
+  <path d="M272 214 L280 206 L285 211 L277 219 Z" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <circle cx="285" cy="211" r="2" fill="rgba(255,255,255,0.4)"/>
+  <!-- T -->
+  <text x="279" y="238" fill="rgba(255,255,255,0.55)" font-size="13" font-weight="700" text-anchor="middle">T</text>
+  <!-- measure -->
+  <line x1="271" y1="252" x2="287" y2="252" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <line x1="271" y1="248" x2="271" y2="256" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <line x1="287" y1="248" x2="287" y2="256" stroke="rgba(255,255,255,0.55)" stroke-width="1.3"/>
+  <!-- pencil -->
+  <path d="M272 270 L282 260 L286 264 L276 274 Z M271 274 L275 275 L272 278 Z" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <!-- ruler -->
+  <rect x="270" y="285" width="18" height="8" rx="1" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <line x1="273" y1="285" x2="273" y2="289" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+  <line x1="277" y1="285" x2="277" y2="291" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+  <line x1="281" y1="285" x2="281" y2="289" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+  <line x1="285" y1="285" x2="285" y2="291" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+  <!-- comment bubble -->
+  <path d="M271 306 Q271 300 277 300 L285 300 Q291 300 291 306 L291 312 Q291 318 285 318 L279 318 L275 322 L275 318 Q271 318 271 312 Z" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <!-- triangle/delta -->
+  <path d="M273 336 L279 326 L285 336 Z" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <!-- person -->
+  <circle cx="279" cy="352" r="4" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <path d="M272 368 Q272 360 279 360 Q286 360 286 368" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <!-- photo -->
+  <rect x="270" y="376" width="18" height="13" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>
+  <circle cx="276" cy="380" r="2.5" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <path d="M270 386 L275 382 L279 387 L281 385 L288 389" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <!-- undo -->
+  <path d="M285 406 Q279 402 273 406 Q269 410 271 416" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="271,402 267,408 273,408" fill="rgba(255,255,255,0.55)"/>
+  <!-- redo -->
+  <path d="M273 432 Q279 428 285 432 Q289 436 287 442" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="287,428 291,434 285,434" fill="rgba(255,255,255,0.55)"/>
+  <!-- trash -->
+  <rect x="272" y="456" width="16" height="14" rx="1" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="1.2"/>
+  <line x1="268" y1="456" x2="292" y2="456" stroke="rgba(255,255,255,0.45)" stroke-width="1.2"/>
+  <line x1="276" y1="452" x2="276" y2="456" stroke="rgba(255,255,255,0.45)" stroke-width="1.2"/>
+  <line x1="284" y1="452" x2="284" y2="456" stroke="rgba(255,255,255,0.45)" stroke-width="1.2"/>
+  <line x1="276" y1="460" x2="276" y2="466" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+  <line x1="280" y1="460" x2="280" y2="466" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+  <line x1="284" y1="460" x2="284" y2="466" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+
+
+  <!-- ══════════════════════════════════
+       MAIN DRAWING CANVAS
+  ═══════════════════════════════════════ -->
+  <rect x="294" y="44" width="870" height="750" fill="#F5F5F0"/>
+
+  <!-- Light hatching grid background (simulating the blueprint grid) -->
+  <defs>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="12" y2="0" stroke="#D8D8C8" stroke-width="0.4"/>
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#D8D8C8" stroke-width="0.4"/>
+    </pattern>
+  </defs>
+  <rect x="294" y="44" width="870" height="750" fill="url(#hatch)"/>
+
+  <!-- Heavy top/bottom horizontal border lines -->
+  <line x1="294" y1="280" x2="1164" y2="280" stroke="#1A1A1A" stroke-width="2.5"/>
+  <line x1="294" y1="570" x2="1164" y2="570" stroke="#1A1A1A" stroke-width="2.5"/>
+
+  <!-- Outer border rectangle for the drawing frame -->
+  <rect x="315" y="60" width="820" height="710" fill="none" stroke="#9CA3AF" stroke-width="0.8"/>
+
+  <!-- Vertical structural columns (dark lines) -->
+  <line x1="380" y1="44" x2="380" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="440" y1="44" x2="440" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="516" y1="44" x2="516" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="580" y1="44" x2="580" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="636" y1="44" x2="636" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="700" y1="44" x2="700" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="756" y1="44" x2="756" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="820" y1="44" x2="820" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="880" y1="44" x2="880" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="940" y1="44" x2="940" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="1000" y1="44" x2="1000" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="1060" y1="44" x2="1060" y2="794" stroke="#374151" stroke-width="1.2"/>
+  <line x1="1120" y1="44" x2="1120" y2="794" stroke="#374151" stroke-width="1.2"/>
+
+  <!-- Thin horizontal lines between beams (structural deck lines) -->
+  <line x1="294" y1="200" x2="1164" y2="200" stroke="#6B7280" stroke-width="0.8"/>
+  <line x1="294" y1="238" x2="1164" y2="238" stroke="#6B7280" stroke-width="0.8"/>
+  <!-- horizontal repeated deck lines -->
+  <line x1="294" y1="148" x2="1164" y2="148" stroke="#9CA3AF" stroke-width="0.6"/>
+  <line x1="294" y1="168" x2="1164" y2="168" stroke="#9CA3AF" stroke-width="0.6"/>
+
+  <!-- W21X83 [32] top beam labels -->
+  <text x="374" y="273" fill="#111827" font-size="11" font-weight="600">W21X83 [32]</text>
+  <text x="672" y="273" fill="#111827" font-size="11" font-weight="600">W21X83 [32]</text>
+  <text x="992" y="273" fill="#111827" font-size="11" font-weight="600">W21X83 [32]</text>
+
+  <!-- H symbols at top beam intersections -->
+  <!-- H at ~516 -->
+  <line x1="512" y1="265" x2="512" y2="285" stroke="#111827" stroke-width="2"/>
+  <line x1="520" y1="265" x2="520" y2="285" stroke="#111827" stroke-width="2"/>
+  <line x1="512" y1="275" x2="520" y2="275" stroke="#111827" stroke-width="2"/>
+  <!-- H at ~820 -->
+  <line x1="816" y1="265" x2="816" y2="285" stroke="#111827" stroke-width="2"/>
+  <line x1="824" y1="265" x2="824" y2="285" stroke="#111827" stroke-width="2"/>
+  <line x1="816" y1="275" x2="824" y2="275" stroke="#111827" stroke-width="2"/>
+
+  <!-- W21X83 [32] bottom beam labels -->
+  <text x="374" y="562" fill="#111827" font-size="11" font-weight="600">W21X83 [32]</text>
+  <text x="672" y="562" fill="#111827" font-size="11" font-weight="600">W21X83 [32]</text>
+  <text x="992" y="562" fill="#111827" font-size="11" font-weight="600">W21X83 [32]</text>
+
+  <!-- H symbols at bottom beam intersections -->
+  <line x1="512" y1="562" x2="512" y2="582" stroke="#111827" stroke-width="2"/>
+  <line x1="520" y1="562" x2="520" y2="582" stroke="#111827" stroke-width="2"/>
+  <line x1="512" y1="572" x2="520" y2="572" stroke="#111827" stroke-width="2"/>
+  <line x1="816" y1="562" x2="816" y2="582" stroke="#111827" stroke-width="2"/>
+  <line x1="824" y1="562" x2="824" y2="582" stroke="#111827" stroke-width="2"/>
+  <line x1="816" y1="572" x2="824" y2="572" stroke="#111827" stroke-width="2"/>
+  <!-- bottom right H symbol -->
+  <line x1="1056" y1="562" x2="1056" y2="582" stroke="#111827" stroke-width="2"/>
+  <line x1="1064" y1="562" x2="1064" y2="582" stroke="#111827" stroke-width="2"/>
+  <line x1="1056" y1="572" x2="1064" y2="572" stroke="#111827" stroke-width="2"/>
+
+  <!-- W18X35 [30] column labels (rotated vertical, repeating) -->
+  <text transform="translate(390,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(450,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(530,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(594,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(648,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(712,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(770,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(834,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(893,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(951,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(1010,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(1072,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+  <text transform="translate(1130,490) rotate(-90)" fill="#111827" font-size="10" font-weight="500" text-anchor="middle">W18X35 [30]</text>
+
+  <!-- "OPEN TO BELOW" annotation -->
+  <text x="940" y="200" fill="#374151" font-size="13" font-weight="600">OPEN TO BELOW</text>
+  <!-- diagonal lines around it -->
+  <line x1="870" y1="155" x2="926" y2="196" stroke="#374151" stroke-width="1.2"/>
+  <line x1="1095" y1="145" x2="1096" y2="175" stroke="#374151" stroke-width="1.2"/>
+  <line x1="1093" y1="172" x2="1107" y2="186" stroke="#374151" stroke-width="1.3"/>
+
+  <!-- Right side special labels -->
+  <!-- W10X19 [6] -->
+  <text x="1020" y="390" fill="#111827" font-size="10" font-weight="500">W10X19 [6]</text>
+  <!-- W18X87 [8] -->
+  <text x="1065" y="424" fill="#111827" font-size="10" font-weight="500">W18X87 [8]</text>
+
+  <!-- S623 circle symbols -->
+  <!-- top right -->
+  <circle cx="1024" cy="305" r="22" fill="#FFFFFF" stroke="#111827" stroke-width="1.3"/>
+  <path d="M1012 295 L1036 295 M1012 295 L1012 315 M1036 295 L1036 315" fill="none" stroke="#111827" stroke-width="1.2"/>
+  <text x="1024" y="310" fill="#111827" font-size="10" font-weight="700" text-anchor="middle">S623</text>
+
+  <!-- S622 circle -->
+  <circle cx="1082" cy="448" r="20" fill="#FFFFFF" stroke="#111827" stroke-width="1.3"/>
+  <path d="M1070 438 L1094 438 M1070 438 L1070 458 M1094 438 L1094 458" fill="none" stroke="#111827" stroke-width="1.2"/>
+  <text x="1082" y="453" fill="#111827" font-size="10" font-weight="700" text-anchor="middle">S622</text>
+
+  <!-- Diagonal measurement lines bottom right corner -->
+  <line x1="938" y1="546" x2="946" y2="554" stroke="#374151" stroke-width="1.2"/>
+  <line x1="950" y1="558" x2="960" y2="568" stroke="#374151" stroke-width="1.2"/>
+  <line x1="940" y1="558" x2="946" y2="568" stroke="#374151" stroke-width="1.2"/>
+
+  <!-- Pink/magenta Sathwik collaboration tooltip -->
+  <!-- cursor/pin -->
+  <path d="M665 354 L671 360 L676 345 Z" fill="#EC4899"/>
+  <!-- "DECK SPAN" label (white on dark above) -->
+  <rect x="668" y="328" width="72" height="22" rx="4" fill="#1F2937"/>
+  <text x="704" y="343" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">DECK SPAN</text>
+  <!-- Sathwik bubble -->
+  <rect x="668" y="350" width="64" height="22" rx="11" fill="#EC4899"/>
+  <text x="700" y="365" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">Sathwik</text>
+
+  <!-- Bottom: "10 S623" symbol -->
+  <!-- vertical line and circle at ~785 -->
+  <line x1="785" y1="615" x2="785" y2="600" stroke="#374151" stroke-width="1.2"/>
+  <text x="785" y="597" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">10</text>
+  <circle cx="785" cy="638" r="18" fill="#FFFFFF" stroke="#111827" stroke-width="1.3"/>
+  <path d="M774 628 L796 628 M774 628 L774 648 M796 628 L796 648" fill="none" stroke="#111827" stroke-width="1.2"/>
+  <text x="785" y="643" fill="#111827" font-size="10" font-weight="700" text-anchor="middle">S623</text>
+
+  <!-- "RCH DWGS." / "OR PRECAST WALL" label -->
+  <line x1="380" y1="600" x2="420" y2="618" stroke="#374151" stroke-width="1.2"/>
+  <text x="310" y="628" fill="#374151" font-size="10">OR PRECAST WALL</text>
+  <text x="310" y="641" fill="#374151" font-size="10">RCH DWGS.</text>
+
+  <!-- Title block at bottom -->
+  <rect x="294" y="746" width="870" height="48" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="0.8"/>
+  <!-- Circle with "1" -->
+  <circle cx="332" cy="760" r="14" fill="none" stroke="#111827" stroke-width="1.5"/>
+  <text x="332" y="765" fill="#111827" font-size="13" font-weight="700" text-anchor="middle">1</text>
+  <text x="360" y="760" fill="#111827" font-size="13" font-weight="700">STRUCTURAL MEZZANINE FRAMING PARTIAL PLAN – SECTOR 01</text>
+  <text x="360" y="776" fill="#9CA3AF" font-size="10">S215.01</text>
+
+
+  <!-- ══════════════════════════════════
+       BOTTOM STATUS BAR
+  ═══════════════════════════════════════ -->
+  <rect x="0" y="794" width="1456" height="26" fill="#1F2937"/>
+  <text x="14" y="811" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.5">DRAWING</text>
+  <line x1="78" y1="798" x2="78" y2="820" stroke="#374151" stroke-width="1"/>
+  <text x="84" y="811" fill="#D1D5DB" font-size="10">Oh-CAPA Mu</text>
+  <line x1="152" y1="798" x2="152" y2="820" stroke="#374151" stroke-width="1"/>
+  <text x="158" y="811" fill="#D1D5DB" font-size="10">OH CAPA MUSIC HALL</text>
+  <line x1="268" y1="798" x2="268" y2="820" stroke="#374151" stroke-width="1"/>
+  <text x="274" y="811" fill="#D1D5DB" font-size="10">Pg 1/22</text>
+
+  <line x1="320" y1="798" x2="320" y2="820" stroke="#374151" stroke-width="1"/>
+  <text x="326" y="811" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.3">SCALE</text>
+  <text x="364" y="811" fill="#D1D5DB" font-size="10">1/8" = 1'-0" (auto)</text>
+  <text x="466" y="811" fill="#6B7280" font-size="10">Manual</text>
+  <rect x="494" y="800" width="48" height="18" rx="4" fill="#374151"/>
+  <text x="518" y="812" fill="#D1D5DB" font-size="11" text-anchor="middle">Change</text>
+
+  <line x1="550" y1="798" x2="550" y2="820" stroke="#374151" stroke-width="1"/>
+  <text x="556" y="811" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.3">TEAM</text>
+  <circle cx="594" cy="807" r="8" fill="#EC4899"/>
+  <text x="594" y="811" fill="#FFFFFF" font-size="8" font-weight="700" text-anchor="middle">SA</text>
+
+  <line x1="614" y1="798" x2="614" y2="820" stroke="#374151" stroke-width="1"/>
+  <text x="620" y="811" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.3">REVISION</text>
+  <text x="674" y="811" fill="#D1D5DB" font-size="10">Revision 2</text>
+  <text x="734" y="811" fill="#6B7280" font-size="10">Main</text>
+  <path d="M760 807 L763 810 L770 803" fill="none" stroke="#22C55E" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="774" y="811" fill="#D1D5DB" font-size="10">Latest</text>
+
+  <!-- Right status info -->
+  <text x="1280" y="811" fill="#6B7280" font-size="10">Pg 1/22</text>
+  <text x="1330" y="811" fill="#6B7280" font-size="10"> · 71%</text>
+  <text x="1370" y="811" fill="#6B7280" font-size="10"> · 0 markups</text>
+  <text x="1428" y="811" fill="#F59E0B" font-size="10">Unsaved</text>
+
+
+  <!-- ══════════════════════════════════
+       RIGHT ACTIVITY PANEL
+  ═══════════════════════════════════════ -->
+  <rect x="1164" y="44" width="292" height="750" fill="#FFFFFF"/>
+  <line x1="1164" y1="44" x2="1164" y2="794" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Activity panel header -->
+  <rect x="1164" y="44" width="292" height="44" fill="#FFFFFF"/>
+  <line x1="1164" y1="88" x2="1456" y2="88" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1184" y="72" fill="#111827" font-size="15" font-weight="700">Activity</text>
+  <text x="1442" y="72" fill="#6B7280" font-size="18" text-anchor="middle">×</text>
+
+  <!-- Tabs: Activity | Comments | People 1 -->
+  <rect x="1164" y="88" width="292" height="40" fill="#FFFFFF"/>
+  <line x1="1164" y1="128" x2="1456" y2="128" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1186" y="112" fill="#1B8C8C" font-size="13" font-weight="600">Activity</text>
+  <line x1="1180" y1="128" x2="1230" y2="128" stroke="#1B8C8C" stroke-width="2.5"/>
+  <text x="1248" y="112" fill="#6B7280" font-size="13">Comments</text>
+  <text x="1340" y="112" fill="#6B7280" font-size="13">People</text>
+  <circle cx="1376" cy="106" r="8" fill="#22C55E"/>
+  <text x="1376" y="110" fill="#FFFFFF" font-size="9" font-weight="700" text-anchor="middle">1</text>
+
+  <!-- Markup alerts section -->
+  <rect x="1164" y="128" width="292" height="26" fill="#FFFFFF"/>
+  <text x="1184" y="146" fill="#374151" font-size="12" font-weight="700">Markup alerts</text>
+
+  <!-- alert rows -->
+  <rect x="1164" y="154" width="292" height="34" fill="#FFFFFF"/>
+  <circle cx="1180" cy="171" r="5" fill="#F97316"/>
+  <text x="1192" y="175" fill="#374151" font-size="12">High priority markups</text>
+  <text x="1438" y="175" fill="#374151" font-size="12" text-anchor="end">0</text>
+
+  <rect x="1164" y="188" width="292" height="34" fill="#FFFFFF"/>
+  <circle cx="1180" cy="205" r="5" fill="#F97316"/>
+  <text x="1192" y="209" fill="#374151" font-size="12">Unresolved comments</text>
+  <text x="1438" y="209" fill="#374151" font-size="12" text-anchor="end">0</text>
+
+  <rect x="1164" y="222" width="292" height="34" fill="#FFFFFF"/>
+  <circle cx="1180" cy="239" r="5" fill="#F97316"/>
+  <text x="1192" y="243" fill="#374151" font-size="12">Outdated revisions</text>
+  <text x="1438" y="243" fill="#374151" font-size="12" text-anchor="end">0</text>
+
+  <rect x="1164" y="256" width="292" height="30" fill="#FFFFFF"/>
+  <line x1="1164" y1="286" x2="1456" y2="286" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1184" y="276" fill="#1B8C8C" font-size="12" font-weight="500">View all alerts  ›</text>
+
+  <!-- Active users section -->
+  <rect x="1164" y="286" width="292" height="30" fill="#FFFFFF"/>
+  <text x="1184" y="307" fill="#374151" font-size="12" font-weight="700">Active users</text>
+  <circle cx="1290" cy="301" r="4" fill="#22C55E"/>
+  <text x="1296" y="306" fill="#374151" font-size="11">Live</text>
+  <text x="1438" y="307" fill="#374151" font-size="13" text-anchor="end">1</text>
+
+  <!-- Sathwik user row -->
+  <rect x="1164" y="316" width="292" height="50" fill="#FFFFFF"/>
+  <circle cx="1192" cy="341" r="16" fill="#EC4899"/>
+  <text x="1192" y="346" fill="#FFFFFF" font-size="10" font-weight="700" text-anchor="middle">SA</text>
+  <text x="1216" y="337" fill="#374151" font-size="13" font-weight="600">Sathwik</text>
+  <text x="1216" y="354" fill="#6B7280" font-size="11">Field S...</text>
+
+  <rect x="1164" y="366" width="292" height="30" fill="#FFFFFF"/>
+  <line x1="1164" y1="396" x2="1456" y2="396" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1184" y="386" fill="#1B8C8C" font-size="12" font-weight="500">View all users  ›</text>
+
+  <!-- Recent comments section -->
+  <rect x="1164" y="396" width="292" height="30" fill="#FFFFFF"/>
+  <text x="1184" y="417" fill="#374151" font-size="12" font-weight="700">Recent comments</text>
+
+  <rect x="1164" y="426" width="292" height="60" fill="#FFFFFF"/>
+  <text x="1184" y="446" fill="#6B7280" font-size="11">No comments yet — add a pin or</text>
+  <text x="1184" y="460" fill="#6B7280" font-size="11">markup thread on the sheet.</text>
+
+  <rect x="1164" y="486" width="292" height="30" fill="#FFFFFF"/>
+  <line x1="1164" y1="516" x2="1456" y2="516" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1184" y="506" fill="#1B8C8C" font-size="12" font-weight="500">View all comments  ›</text>
+
+  <!-- Bottom search bar -->
+  <rect x="1164" y="760" width="292" height="34" fill="#F9FAFB"/>
+  <line x1="1164" y1="760" x2="1456" y2="760" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="1184" cy="777" r="5" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <line x1="1188" y1="781" x2="1192" y2="785" stroke="#9CA3AF" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="1200" y="781" fill="#9CA3AF" font-size="12">Open search</text>
+
+</svg>

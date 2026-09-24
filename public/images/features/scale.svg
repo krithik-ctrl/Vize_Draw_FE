@@ -1,0 +1,273 @@
+<svg width="1456" height="800" viewBox="0 0 1456 800" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif">
+
+  <!-- Drawing background -->
+  <rect width="1456" height="800" fill="#FFFFFF"/>
+
+  <!-- ═══════════════════════════
+       LEFT TOOLBAR
+  ════════════════════════════════ -->
+  <rect x="0" y="0" width="36" height="800" fill="#1C2535"/>
+  <!-- rectangle -->
+  <rect x="11" y="12" width="14" height="12" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- circle -->
+  <circle cx="18" cy="42" r="7" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- cloud wavy -->
+  <path d="M11 62 Q14 56 18 62 Q21 68 25 62" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- pen squiggle -->
+  <path d="M11 80 Q15 73 19 80 Q23 87 26 80" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- T -->
+  <text x="18" y="103" fill="#9CA3AF" font-size="13" font-weight="700" text-anchor="middle">T</text>
+  <!-- angle tool -->
+  <path d="M11 118 L18 112 L25 118" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <line x1="18" y1="112" x2="18" y2="124" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- ruler/calibration (active - teal) -->
+  <rect x="8" y="130" width="20" height="20" rx="3" fill="#2EA8A8" fill-opacity="0.15"/>
+  <line x1="11" y1="140" x2="25" y2="140" stroke="#2EA8A8" stroke-width="1.5"/>
+  <line x1="11" y1="136" x2="11" y2="144" stroke="#2EA8A8" stroke-width="1.5"/>
+  <line x1="25" y1="136" x2="25" y2="144" stroke="#2EA8A8" stroke-width="1.5"/>
+  <line x1="16" y1="137" x2="16" y2="143" stroke="#2EA8A8" stroke-width="1"/>
+  <line x1="20" y1="137" x2="20" y2="143" stroke="#2EA8A8" stroke-width="1"/>
+  <!-- crosshair -->
+  <circle cx="18" cy="168" r="7" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <line x1="18" y1="161" x2="18" y2="175" stroke="#9CA3AF" stroke-width="1.3"/>
+  <line x1="11" y1="168" x2="25" y2="168" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- triangle -->
+  <path d="M11 192 L25 192 L18 182Z" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- square -->
+  <rect x="11" y="202" width="14" height="14" rx="1" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- person/stamp -->
+  <circle cx="18" cy="228" r="4" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <path d="M11 242 Q11 235 18 235 Q25 235 25 242" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- photo -->
+  <rect x="11" y="252" width="14" height="11" rx="1" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <circle cx="16" cy="257" r="2" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  <path d="M11 262 L15 259 L19 262 L22 260 L25 262" fill="none" stroke="#9CA3AF" stroke-width="0.9"/>
+  <!-- chat bubble -->
+  <rect x="10" y="272" width="16" height="12" rx="3" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <path d="M14 284 L12 290 L18 284Z" fill="none" stroke="#9CA3AF" stroke-width="1" stroke-linejoin="round"/>
+  <!-- undo -->
+  <path d="M24 308 Q16 300 11 308 Q11 316 20 316" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <polygon points="11,304 11,312 7,308" fill="#9CA3AF"/>
+  <!-- redo -->
+  <path d="M12 328 Q20 320 25 328 Q25 336 16 336" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <polygon points="25,324 25,332 29,328" fill="#9CA3AF"/>
+  <!-- copy -->
+  <rect x="12" y="348" width="11" height="11" rx="1" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+  <rect x="15" y="345" width="11" height="11" rx="1" fill="#1C2535" stroke="#9CA3AF" stroke-width="1.2"/>
+  <!-- Legend button -->
+  <rect x="6" y="718" width="24" height="20" rx="10" fill="none" stroke="#6B7280" stroke-width="1"/>
+  <circle cx="13" cy="728" r="3" fill="none" stroke="#6B7280" stroke-width="1"/>
+  <text x="26" y="732" fill="#6B7280" font-size="8" text-anchor="end">Legend</text>
+
+  <!-- ═══════════════════════════
+       STRUCTURAL STEEL DRAWING
+  ════════════════════════════════ -->
+
+  <!-- Column vertical lines -->
+  <!-- col 1: W24X55 at x=145 -->
+  <line x1="145" y1="0" x2="145" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(141,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W24X55</text>
+
+  <!-- col 2: W30X173 at x=255 -->
+  <line x1="255" y1="0" x2="255" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(251,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W30X173</text>
+
+  <!-- col 3: W24X55 at x=363 -->
+  <line x1="363" y1="0" x2="363" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(359,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W24X55</text>
+
+  <!-- col 4: W30X173 at x=472 -->
+  <line x1="472" y1="0" x2="472" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(468,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W30X173</text>
+
+  <!-- col 5: W24X55 at x=568 — RED measurement line here -->
+  <line x1="568" y1="0" x2="568" y2="800" stroke="#DC2626" stroke-width="2.2"/>
+  <!-- dimension label on the red line -->
+  <rect x="503" y="155" width="110" height="22" rx="4" fill="#111827"/>
+  <text x="558" y="170" fill="#FFFFFF" font-size="10.5" text-anchor="middle" font-weight="500">55'-8 15/16"</text>
+
+  <!-- col 6: W24X55 at x=650 (partially visible, under left panel) -->
+  <line x1="650" y1="0" x2="650" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(646,200) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W2</text>
+
+  <!-- col 7: W30X173 at x=762 -->
+  <line x1="762" y1="0" x2="762" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(758,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W30X173</text>
+
+  <!-- col 8: W24X55 at x=870 -->
+  <line x1="870" y1="0" x2="870" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(866,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W24X55</text>
+
+  <!-- col 9: W24X55 at x=972 -->
+  <line x1="972" y1="0" x2="972" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(968,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W24X55</text>
+
+  <!-- col 10: W24X55 at x=1074 -->
+  <line x1="1074" y1="0" x2="1074" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(1070,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W24X55</text>
+
+  <!-- col 11: W30X173 at x=1176 -->
+  <line x1="1176" y1="0" x2="1176" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(1172,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W30X173</text>
+
+  <!-- col 12: W24X55 at x=1278 -->
+  <line x1="1278" y1="0" x2="1278" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(1274,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W24X55</text>
+
+  <!-- col 13: W24X55 at x=1380 -->
+  <line x1="1380" y1="0" x2="1380" y2="800" stroke="#111827" stroke-width="1.5"/>
+  <text transform="translate(1376,390) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W24X55</text>
+
+  <!-- Horizontal beam: W14X26 level at y=374 -->
+  <line x1="36" y1="374" x2="1456" y2="374" stroke="#111827" stroke-width="1.5"/>
+  <!-- left edge "A" label -->
+  <text x="42" y="370" fill="#111827" font-size="11" font-weight="500">A</text>
+  <text x="42" y="384" fill="#111827" font-size="10">W14X26</text>
+  <!-- CA box at col 2 (x=255) -->
+  <rect x="248" y="367" width="14" height="14" rx="1" fill="#FFFFFF" stroke="#111827" stroke-width="1"/>
+  <text x="255" y="378" fill="#111827" font-size="7" text-anchor="middle" font-weight="600">CA</text>
+  <text x="228" y="389" fill="#111827" font-size="10">W14X26</text>
+  <!-- CA box at col 7 (x=762) -->
+  <rect x="755" y="367" width="14" height="14" rx="1" fill="#FFFFFF" stroke="#111827" stroke-width="1"/>
+  <text x="762" y="378" fill="#111827" font-size="7" text-anchor="middle" font-weight="600">CA</text>
+  <text x="742" y="389" fill="#111827" font-size="10">W14X26</text>
+
+  <!-- Horizontal beam: W30X116 at y=467 -->
+  <line x1="36" y1="467" x2="1456" y2="467" stroke="#111827" stroke-width="2"/>
+  <text x="42" y="462" fill="#111827" font-size="10" font-weight="600">W30X116</text>
+  <!-- W30 partial at right (cut off) -->
+  <text x="860" y="462" fill="#111827" font-size="10" font-weight="600">W30</text>
+
+  <!-- Bottom labels: W18X35 and 8X35 (rotated, at lower columns) -->
+  <text transform="translate(869,680) rotate(-90)" fill="#111827" font-size="11" font-weight="500">W18X35</text>
+  <text transform="translate(44,690) rotate(-90)" fill="#111827" font-size="11" font-weight="500">8X35</text>
+
+  <!-- Orange chat bubble with badge (at x≈137, y≈205) -->
+  <path d="M118 192 Q118 183 128 183 L162 183 Q172 183 172 192 L172 218 Q172 226 163 226 L148 226 L141 234 L141 226 L128 226 Q118 226 118 218 Z" fill="#F59E0B"/>
+  <!-- inner white chat lines -->
+  <line x1="130" y1="198" x2="160" y2="198" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="130" y1="205" x2="155" y2="205" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="130" y1="212" x2="150" y2="212" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- badge -->
+  <circle cx="164" cy="186" r="9" fill="#1F2937"/>
+  <text x="164" y="190" fill="#FFFFFF" font-size="9" font-weight="700" text-anchor="middle">3</text>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       LEFT PANEL — SCALE & CALIBRATION (Manual tab)
+  ═══════════════════════════════════════════════════════ -->
+  <!-- shadow -->
+  <rect x="202" y="407" width="528" height="388" rx="8" fill="#00000018"/>
+  <!-- card -->
+  <rect x="197" y="401" width="528" height="388" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- header row -->
+  <text x="225" y="430" fill="#374151" font-size="11" font-weight="700" letter-spacing="0.5">⬡ SCALE &amp; CALIBRATION</text>
+  <!-- chain icon -->
+  <path d="M214 424 Q217 420 221 424 L225 428 Q229 432 225 436 L222 439" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M218 434 Q215 438 211 434 L207 430 Q203 426 207 422 L210 419" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linecap="round"/>
+  <!-- Close button -->
+  <rect x="650" y="418" width="54" height="26" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="677" y="435" fill="#374151" font-size="12" text-anchor="middle">Close</text>
+  <line x1="197" y1="447" x2="725" y2="447" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Green scale banner -->
+  <rect x="209" y="455" width="504" height="44" rx="6" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+  <!-- green check circle -->
+  <circle cx="228" cy="477" r="10" fill="#16A34A" fill-opacity="0.15" stroke="#16A34A" stroke-width="1.3"/>
+  <path d="M223 477 L226 480 L233 473" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="245" y="481" fill="#111827" font-size="13" font-weight="700">SCALE: 3/32" = 1'-0" (auto)</text>
+  <!-- Change button -->
+  <rect x="630" y="463" width="68" height="28" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="664" y="481" fill="#374151" font-size="12" text-anchor="middle">Change</text>
+
+  <!-- Green auto-detected banner -->
+  <rect x="209" y="506" width="504" height="36" rx="6" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+  <!-- info circle -->
+  <circle cx="226" cy="524" r="8" fill="none" stroke="#16A34A" stroke-width="1.3"/>
+  <text x="226" y="527" fill="#16A34A" font-size="9" font-weight="700" text-anchor="middle">i</text>
+  <text x="240" y="528" fill="#6B7280" font-size="12">Auto-detected:</text>
+  <text x="328" y="528" fill="#16A34A" font-size="12" font-weight="700">SCALE: 3/32" = 1'-0"</text>
+
+  <!-- Tab bar -->
+  <line x1="197" y1="549" x2="725" y2="549" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="209" y="557" width="240" height="34" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="329" y="579" fill="#2EA8A8" font-size="13" font-weight="600" text-anchor="middle">Manual</text>
+  <rect x="454" y="557" width="240" height="34" rx="6" fill="#F9FAFB" stroke="none"/>
+  <text x="574" y="579" fill="#374151" font-size="13" text-anchor="middle">Calibrate</text>
+  <!-- info icon -->
+  <circle cx="707" cy="574" r="10" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="707" y="578" fill="#9CA3AF" font-size="10" font-weight="700" text-anchor="middle">i</text>
+
+  <!-- Scale preset dropdown -->
+  <rect x="209" y="600" width="504" height="40" rx="6" fill="#FFFFFF" stroke="#2EA8A8" stroke-width="1.5"/>
+  <text x="225" y="624" fill="#374151" font-size="13">— Scale preset —</text>
+  <!-- chevron -->
+  <path d="M695 616 L700 621 L705 616" fill="none" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Custom in/px input -->
+  <rect x="209" y="650" width="504" height="40" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="225" y="674" fill="#D1D5DB" font-size="13">Custom in/px</text>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       RIGHT PANEL — SCALE & CALIBRATION (Calibrate tab)
+  ═══════════════════════════════════════════════════════ -->
+  <!-- shadow -->
+  <rect x="882" y="297" width="512" height="510" rx="8" fill="#00000018"/>
+  <!-- card -->
+  <rect x="877" y="291" width="512" height="510" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- header row -->
+  <path d="M896 320 Q899 316 903 320 L907 324 Q911 328 907 332 L904 335" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M900 330 Q897 334 893 330 L889 326 Q885 322 889 318 L892 315" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="910" y="326" fill="#374151" font-size="11" font-weight="700" letter-spacing="0.5">SCALE &amp; CALIBRATION</text>
+  <!-- Close button -->
+  <rect x="1318" y="309" width="54" height="26" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="1345" y="326" fill="#374151" font-size="12" text-anchor="middle">Close</text>
+  <line x1="877" y1="338" x2="1389" y2="338" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Green scale banner -->
+  <rect x="889" y="346" width="488" height="44" rx="6" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+  <circle cx="908" cy="368" r="10" fill="#16A34A" fill-opacity="0.15" stroke="#16A34A" stroke-width="1.3"/>
+  <path d="M903 368 L906 371 L913 364" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="925" y="372" fill="#111827" font-size="13" font-weight="700">SCALE: 3/32" = 1'-0" (auto)</text>
+  <rect x="1300" y="354" width="68" height="28" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="1334" y="372" fill="#374151" font-size="12" text-anchor="middle">Change</text>
+
+  <!-- Green auto-detected banner -->
+  <rect x="889" y="397" width="488" height="36" rx="6" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+  <circle cx="906" cy="415" r="8" fill="none" stroke="#16A34A" stroke-width="1.3"/>
+  <text x="906" y="418" fill="#16A34A" font-size="9" font-weight="700" text-anchor="middle">i</text>
+  <text x="920" y="419" fill="#6B7280" font-size="12">Auto-detected:</text>
+  <text x="1008" y="419" fill="#16A34A" font-size="12" font-weight="700">SCALE: 3/32" = 1'-0"</text>
+
+  <!-- Tab bar -->
+  <line x1="877" y1="440" x2="1389" y2="440" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="889" y="448" width="228" height="34" rx="6" fill="#F9FAFB"/>
+  <text x="1003" y="470" fill="#374151" font-size="13" text-anchor="middle">Manual</text>
+  <rect x="1122" y="448" width="228" height="34" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1236" y="470" fill="#2EA8A8" font-size="13" font-weight="600" text-anchor="middle">Calibrate</text>
+  <!-- info icon -->
+  <circle cx="1373" cy="465" r="10" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="1373" y="469" fill="#9CA3AF" font-size="10" font-weight="700" text-anchor="middle">i</text>
+
+  <!-- Calibrate instruction text -->
+  <rect x="889" y="490" width="488" height="68" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="905" y="514" fill="#374151" font-size="13">Enter a known dimension, then click two points on the</text>
+  <text x="905" y="532" fill="#374151" font-size="13">drawing for 100% accurate measurements.</text>
+
+  <!-- Reference input -->
+  <rect x="889" y="567" width="488" height="44" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="905" y="593" fill="#D1D5DB" font-size="13">Reference (e.g. column line A–B)</text>
+
+  <!-- Ft / In inputs -->
+  <rect x="889" y="620" width="236" height="44" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="905" y="646" fill="#D1D5DB" font-size="13">Ft</text>
+  <rect x="1133" y="620" width="244" height="44" rx="6" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1149" y="646" fill="#D1D5DB" font-size="13">In</text>
+
+  <!-- Pixel distance hint -->
+  <text x="889" y="687" fill="#9CA3AF" font-size="12">Click two points on the canvas to capture pixel distance.</text>
+
+</svg>

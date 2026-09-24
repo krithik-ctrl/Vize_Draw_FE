@@ -1,0 +1,81 @@
+<svg viewBox="0 0 720 405" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mechanical part drawing with orthographic views, holes, dimensions, and a section view">
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#070B16"/>
+    </linearGradient>
+    <pattern id="mgrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#4EBABD" stroke-width="0.5" stroke-opacity="0.10"/>
+    </pattern>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#4EBABD" stroke-width="0.8" stroke-opacity="0.55"/>
+    </pattern>
+    <marker id="marrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M1 1L5 4L1 7" fill="none" stroke="#6FCFD1" stroke-width="1"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="405" fill="url(#mbg)"/>
+  <rect width="720" height="405" fill="url(#mgrid)"/>
+
+  <!-- FRONT VIEW: a flanged bracket -->
+  <g>
+    <path d="M120 110 H300 a18 18 0 0 1 18 18 V210 a18 18 0 0 1 -18 18 H120 Z"
+          fill="#4EBABD" fill-opacity="0.05" stroke="#6FCFD1" stroke-width="2"/>
+    <!-- mounting holes -->
+    <g fill="none" stroke="#4EBABD" stroke-width="1.4">
+      <circle cx="150" cy="140" r="9"/><circle cx="150" cy="198" r="9"/>
+      <circle cx="288" cy="140" r="9"/><circle cx="288" cy="198" r="9"/>
+    </g>
+    <!-- center marks -->
+    <g stroke="#FF6B4A" stroke-width="0.8" stroke-dasharray="5 2 1 2">
+      <line x1="135" y1="140" x2="303" y2="140"/>
+      <line x1="135" y1="198" x2="303" y2="198"/>
+      <line x1="150" y1="100" x2="150" y2="238"/>
+      <line x1="288" y1="100" x2="288" y2="238"/>
+    </g>
+    <!-- bore -->
+    <circle cx="219" cy="169" r="30" fill="#070B16" stroke="#6FCFD1" stroke-width="2"/>
+    <circle cx="219" cy="169" r="20" fill="none" stroke="#4EBABD" stroke-width="1" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- dimensions -->
+  <g stroke="#6FCFD1" stroke-width="1">
+    <line x1="120" y1="258" x2="318" y2="258" marker-start="url(#marrow)" marker-end="url(#marrow)"/>
+    <line x1="350" y1="110" x2="350" y2="228" marker-start="url(#marrow)" marker-end="url(#marrow)"/>
+  </g>
+  <g font-family="'JetBrains Mono', monospace" font-size="10" fill="#8A94A6">
+    <text x="219" y="274" text-anchor="middle">Ø 162.0</text>
+    <text x="360" y="173">118.0</text>
+    <text x="186" y="173" fill="#6FCFD1" text-anchor="middle">Ø60 H7</text>
+  </g>
+
+  <!-- SECTION VIEW A-A -->
+  <g>
+    <text x="470" y="104" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="1.5" fill="#5E6A80">SECTION A–A</text>
+    <path d="M470 120 H650 V150 H600 V200 H650 V230 H470 V200 H520 V150 H470 Z"
+          fill="url(#hatch)" stroke="#6FCFD1" stroke-width="1.6"/>
+    <g stroke="#FF6B4A" stroke-width="0.8" stroke-dasharray="5 2 1 2">
+      <line x1="455" y1="175" x2="665" y2="175"/>
+    </g>
+  </g>
+
+  <!-- GD&T-style callout -->
+  <g>
+    <rect x="470" y="250" width="120" height="22" fill="#0B1120" stroke="#1E2A42"/>
+    <line x1="500" y1="250" x2="500" y2="272" stroke="#1E2A42"/>
+    <line x1="540" y1="250" x2="540" y2="272" stroke="#1E2A42"/>
+    <text x="485" y="265" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6FCFD1">⌖</text>
+    <text x="520" y="265" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8A94A6">0.05</text>
+    <text x="565" y="265" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8A94A6">A</text>
+  </g>
+
+  <!-- title block -->
+  <g>
+    <rect x="470" y="330" width="216" height="48" rx="3" fill="#0B1120" stroke="#1E2A42"/>
+    <text x="482" y="350" font-family="'JetBrains Mono', monospace" font-size="9" letter-spacing="1.5" fill="#5E6A80">PRT-4471 · MOUNT BRACKET</text>
+    <text x="482" y="366" font-family="'SF Pro Display', sans-serif" font-size="11" fill="#ECEFF4">Steel · 1:2 · Rev B</text>
+    <circle cx="672" cy="354" r="8" fill="none" stroke="#4EBABD" stroke-width="1.2"/>
+    <path d="M668 354l3 3 5-6" fill="none" stroke="#4EBABD" stroke-width="1.4"/>
+  </g>
+</svg>

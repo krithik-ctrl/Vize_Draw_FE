@@ -1,0 +1,491 @@
+<svg width="1440" height="820" viewBox="0 0 1440 820" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif">
+
+  <!-- Background -->
+  <rect width="1440" height="820" fill="#E2E8F0"/>
+
+  <!-- ═══════════════════════════════════════
+       FAR-LEFT TOOLBAR
+  ════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="36" height="820" fill="#1C2535"/>
+  <!-- selection cross -->
+  <line x1="12" y1="16" x2="24" y2="28" stroke="#6B7280" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="24" y1="16" x2="12" y2="28" stroke="#6B7280" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- hand -->
+  <path d="M13 46 L13 58 Q13 62 17 62 L23 62 Q27 62 27 58 L27 50 L25 50 L25 46 L23 46 L23 44 L19 44 L19 46Z" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- arrow line -->
+  <line x1="13" y1="82" x2="23" y2="72" stroke="#6B7280" stroke-width="1.4"/>
+  <polygon points="23,72 20,75 21,71" fill="#6B7280"/>
+  <!-- rectangle -->
+  <rect x="12" y="94" width="14" height="10" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- circle -->
+  <circle cx="19" cy="118" r="7" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- cloud wavy -->
+  <path d="M12 135 Q15 129 19 135 Q22 141 26 135" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- pen -->
+  <path d="M14 152 Q19 144 24 152" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- T -->
+  <text x="19" y="172" fill="#6B7280" font-size="13" font-weight="700" text-anchor="middle">T</text>
+  <!-- highlighter rect -->
+  <rect x="12" y="182" width="14" height="9" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="16" y1="191" x2="16" y2="196" stroke="#6B7280" stroke-width="1.4"/>
+  <line x1="22" y1="191" x2="22" y2="196" stroke="#6B7280" stroke-width="1.4"/>
+  <!-- pen nib -->
+  <path d="M14 210 L19 202 L24 210 L22 215 L16 215Z" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- dimension -->
+  <line x1="12" y1="228" x2="26" y2="228" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="12" y1="224" x2="12" y2="232" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="26" y1="224" x2="26" y2="232" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- target circle -->
+  <circle cx="19" cy="248" r="7" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="19" y1="241" x2="19" y2="255" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="12" y1="248" x2="26" y2="248" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- triangle -->
+  <path d="M12 272 L26 272 L19 261Z" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <!-- chat bubble -->
+  <rect x="11" y="283" width="16" height="12" rx="3" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <path d="M15 295 L13 301 L19 295Z" fill="none" stroke="#6B7280" stroke-width="1" stroke-linejoin="round"/>
+  <!-- stamp -->
+  <rect x="12" y="312" width="14" height="10" rx="1" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="12" y1="322" x2="26" y2="322" stroke="#6B7280" stroke-width="2"/>
+  <!-- photo -->
+  <rect x="12" y="332" width="14" height="10" rx="1" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <circle cx="17" cy="337" r="2" fill="none" stroke="#6B7280" stroke-width="1"/>
+  <path d="M12 342 L16 338 L20 342 L23 339 L26 342" fill="none" stroke="#6B7280" stroke-width="1"/>
+
+
+  <!-- ═══════════════════════════════════════
+       PANEL 1 — MARKUPS (list view, Leader expanded)
+  ════════════════════════════════════════════ -->
+  <rect x="36" y="0" width="443" height="820" fill="#FFFFFF"/>
+  <line x1="479" y1="0" x2="479" y2="820" stroke="#D1D5DB" stroke-width="1"/>
+
+  <!-- P1 Header -->
+  <rect x="36" y="0" width="443" height="38" fill="#1B8C8C"/>
+  <text x="56" y="24" fill="#FFFFFF" font-size="14" font-weight="600">Markups</text>
+  <text x="466" y="26" fill="rgba(255,255,255,0.7)" font-size="20" text-anchor="middle">×</text>
+
+  <!-- P1 count bar -->
+  <rect x="36" y="38" width="443" height="36" fill="#FFFFFF"/>
+  <line x1="36" y1="74" x2="479" y2="74" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="61" fill="#374151" font-size="13" font-weight="500">10</text>
+  <!-- eye icon -->
+  <ellipse cx="408" cy="56" rx="8" ry="5" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <circle cx="408" cy="56" r="2.2" fill="#9CA3AF"/>
+  <!-- square icon -->
+  <rect x="421" y="50" width="12" height="12" rx="2" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- funnel/filter -->
+  <path d="M437 50 L449 50 L444 57 L444 64 L442 64 L442 57Z" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+
+  <!-- P1 Search -->
+  <rect x="44" y="82" width="427" height="32" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="60" cy="98" r="6" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <line x1="65" y1="103" x2="69" y2="107" stroke="#9CA3AF" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="78" y="102" fill="#9CA3AF" font-size="12">Search markups, notes, authors...</text>
+
+  <!-- P1 PAGE 1 row -->
+  <line x1="36" y1="122" x2="479" y2="122" stroke="#F3F4F6" stroke-width="1"/>
+  <rect x="44" y="130" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="62" y="141" fill="#374151" font-size="12" font-weight="600">PAGE 1</text>
+  <text x="110" y="141" fill="#6B7280" font-size="12">10</text>
+  <line x1="36" y1="152" x2="479" y2="152" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- P1 Leader (expanded) header row -->
+  <rect x="36" y="152" width="443" height="36" fill="#F9FAFB"/>
+  <rect x="44" y="162" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="61" y="172" fill="#6B7280" font-size="10">▼</text>
+  <rect x="74" y="162" width="12" height="12" rx="1" fill="#EF4444"/>
+  <!-- leader icon (small callout box) -->
+  <rect x="90" y="162" width="12" height="12" rx="1" fill="none" stroke="#6B7280" stroke-width="1.1"/>
+  <path d="M92 165 L94 169 L98 169" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+  <text x="108" y="173" fill="#374151" font-size="13" font-weight="500">Leader</text>
+  <circle cx="462" cy="168" r="5" fill="#374151"/>
+  <line x1="36" y1="188" x2="479" y2="188" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Detail rows -->
+  <text x="60" y="204" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">AUTHOR</text>
+  <text x="184" y="204" fill="#374151" font-size="12">—</text>
+  <line x1="36" y1="212" x2="479" y2="212" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="60" y="227" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">STATUS</text>
+  <text x="184" y="227" fill="#374151" font-size="12">none</text>
+  <line x1="36" y1="235" x2="479" y2="235" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="60" y="250" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">LAYER</text>
+  <text x="184" y="250" fill="#374151" font-size="12">—</text>
+  <line x1="36" y1="258" x2="479" y2="258" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="60" y="273" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">COLOR</text>
+  <rect x="182" y="264" width="12" height="12" rx="1" fill="#EF4444"/>
+  <text x="198" y="274" fill="#374151" font-size="12">#ef4444</text>
+  <line x1="36" y1="281" x2="479" y2="281" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="60" y="296" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">WIDTH / OPACITY</text>
+  <text x="222" y="296" fill="#374151" font-size="12">8px · 100%</text>
+  <line x1="36" y1="304" x2="479" y2="304" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="60" y="319" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">CREATED</text>
+  <text x="184" y="319" fill="#374151" font-size="12">08/06/2026, 07:00:21</text>
+  <line x1="36" y1="327" x2="479" y2="327" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="60" y="342" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">LINK</text>
+  <text x="184" y="342" fill="#2EA8A8" font-size="12">+ Add link</text>
+  <line x1="36" y1="350" x2="479" y2="350" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- COMMENTS (1) -->
+  <rect x="36" y="350" width="443" height="28" fill="#F9FAFB"/>
+  <text x="60" y="368" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">COMMENTS</text>
+  <text x="128" y="368" fill="#9CA3AF" font-size="10">(1)</text>
+  <line x1="36" y1="378" x2="479" y2="378" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Kumar comment -->
+  <circle cx="56" cy="399" r="12" fill="#2EA8A8" fill-opacity="0.85"/>
+  <text x="56" y="403" fill="#FFFFFF" font-size="9" font-weight="700" text-anchor="middle">K</text>
+  <text x="74" y="395" fill="#111827" font-size="12" font-weight="600">Kumar</text>
+  <text x="116" y="395" fill="#9CA3AF" font-size="11">4h ago</text>
+  <!-- trash icon -->
+  <rect x="444" y="388" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.1"/>
+  <line x1="444" y1="392" x2="456" y2="392" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="74" y="411" fill="#374151" font-size="12">@Sathwik Please verify this</text>
+  <line x1="36" y1="422" x2="479" y2="422" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Comment input -->
+  <rect x="44" y="430" width="368" height="28" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="54" y="448" fill="#9CA3AF" font-size="11">Add a comment... (use @ to mention)</text>
+  <!-- Send button -->
+  <rect x="416" y="430" width="28" height="28" rx="6" fill="#2EA8A8"/>
+  <path d="M423 444 L434 444" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M431 440 L435 444 L431 448" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="36" y1="468" x2="479" y2="468" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Collapsed items -->
+  <!-- Leader -->
+  <rect x="44" y="478" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="62" y="488" fill="#6B7280" font-size="10">▶</text>
+  <rect x="74" y="478" width="12" height="12" rx="1" fill="#EF4444"/>
+  <rect x="90" y="478" width="12" height="12" rx="1" fill="none" stroke="#6B7280" stroke-width="1.1"/>
+  <text x="108" y="489" fill="#374151" font-size="13">Leader</text>
+  <circle cx="462" cy="484" r="5" fill="#374151"/>
+  <line x1="36" y1="500" x2="479" y2="500" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Ellipse -->
+  <rect x="44" y="510" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="62" y="520" fill="#6B7280" font-size="10">▶</text>
+  <rect x="74" y="510" width="12" height="12" rx="1" fill="#EF4444"/>
+  <ellipse cx="96" cy="516" rx="6" ry="5" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <text x="108" y="521" fill="#374151" font-size="13">Ellipse</text>
+  <circle cx="462" cy="516" r="5" fill="#374151"/>
+  <line x1="36" y1="532" x2="479" y2="532" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Highlighter -->
+  <rect x="44" y="542" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="62" y="552" fill="#6B7280" font-size="10">▶</text>
+  <rect x="74" y="542" width="12" height="12" rx="1" fill="#EF4444"/>
+  <path d="M90 551 L94 543 L100 551 L97 556 L93 556Z" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <text x="108" y="553" fill="#374151" font-size="13">Highlighter</text>
+  <circle cx="462" cy="548" r="5" fill="#374151"/>
+  <line x1="36" y1="564" x2="479" y2="564" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Cloud -->
+  <rect x="44" y="574" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="62" y="584" fill="#6B7280" font-size="10">▶</text>
+  <rect x="74" y="574" width="12" height="12" rx="1" fill="#EF4444"/>
+  <path d="M90 583 Q91 578 95 578 Q96 575 100 576 Q103 575 104 578 Q107 578 107 582 Q107 586 104 586 L90 586 Q87 586 87 583Z" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <text x="108" y="585" fill="#374151" font-size="13">Cloud</text>
+  <circle cx="462" cy="580" r="5" fill="#374151"/>
+  <line x1="36" y1="596" x2="479" y2="596" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Arrow -->
+  <rect x="44" y="606" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="62" y="616" fill="#6B7280" font-size="10">▶</text>
+  <rect x="74" y="606" width="12" height="12" rx="1" fill="#EF4444"/>
+  <line x1="90" y1="616" x2="100" y2="609" stroke="#6B7280" stroke-width="1.3"/>
+  <polygon points="100,609 97,612 98,608" fill="#6B7280"/>
+  <text x="108" y="617" fill="#374151" font-size="13">Arrow</text>
+  <circle cx="462" cy="612" r="5" fill="#374151"/>
+  <line x1="36" y1="628" x2="479" y2="628" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Highlighter 2 -->
+  <rect x="44" y="638" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="62" y="648" fill="#6B7280" font-size="10">▶</text>
+  <rect x="74" y="638" width="12" height="12" rx="1" fill="#EF4444"/>
+  <path d="M90 647 L94 639 L100 647 L97 652 L93 652Z" fill="none" stroke="#6B7280" stroke-width="1.2"/>
+  <text x="108" y="649" fill="#374151" font-size="13">Highlighter</text>
+  <circle cx="462" cy="644" r="5" fill="#374151"/>
+
+
+  <!-- ═══════════════════════════════════════
+       PANEL 2 — MARKUPS (filter + expanded Leader)
+  ════════════════════════════════════════════ -->
+  <rect x="479" y="0" width="487" height="820" fill="#FFFFFF"/>
+  <line x1="966" y1="0" x2="966" y2="820" stroke="#D1D5DB" stroke-width="1"/>
+
+  <!-- P2 Header -->
+  <rect x="479" y="0" width="487" height="38" fill="#1B8C8C"/>
+  <text x="499" y="24" fill="#FFFFFF" font-size="14" font-weight="600">Markups</text>
+  <text x="952" y="26" fill="rgba(255,255,255,0.7)" font-size="20" text-anchor="middle">×</text>
+
+  <!-- P2 count bar -->
+  <rect x="479" y="38" width="487" height="36" fill="#FFFFFF"/>
+  <line x1="479" y1="74" x2="966" y2="74" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="495" y="61" fill="#374151" font-size="13" font-weight="500">10</text>
+  <ellipse cx="851" cy="56" rx="8" ry="5" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <circle cx="851" cy="56" r="2.2" fill="#9CA3AF"/>
+  <rect x="864" y="50" width="12" height="12" rx="2" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <!-- Filter icon ACTIVE (teal fill) -->
+  <rect x="877" y="48" width="20" height="20" rx="4" fill="#2EA8A8" fill-opacity="0.15" stroke="#2EA8A8" stroke-width="1.2"/>
+  <path d="M881 52 L893 52 L888 59 L888 66 L886 66 L886 59Z" fill="#2EA8A8" stroke="none"/>
+
+  <!-- P2 Search -->
+  <rect x="487" y="82" width="471" height="32" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="503" cy="98" r="6" fill="none" stroke="#9CA3AF" stroke-width="1.3"/>
+  <line x1="508" y1="103" x2="512" y2="107" stroke="#9CA3AF" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="520" y="102" fill="#9CA3AF" font-size="12">Search markups, notes, authors...</text>
+
+  <!-- STATUS section -->
+  <line x1="479" y1="122" x2="966" y2="122" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="495" y="140" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.8">STATUS</text>
+  <!-- All (10) — active teal -->
+  <rect x="495" y="148" width="56" height="24" rx="12" fill="#2EA8A8"/>
+  <text x="523" y="164" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">All  10</text>
+  <!-- None (10) -->
+  <rect x="556" y="148" width="62" height="24" rx="12" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="587" y="164" fill="#374151" font-size="11" text-anchor="middle">None  10</text>
+  <!-- Review (0) -->
+  <rect x="623" y="148" width="72" height="24" rx="12" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="659" y="164" fill="#374151" font-size="11" text-anchor="middle">Review  0</text>
+  <!-- Approved (0) -->
+  <rect x="700" y="148" width="82" height="24" rx="12" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="741" y="164" fill="#374151" font-size="11" text-anchor="middle">Approved  0</text>
+  <!-- Rejected (0) -->
+  <rect x="787" y="148" width="76" height="24" rx="12" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="825" y="164" fill="#374151" font-size="11" text-anchor="middle">Rejected  0</text>
+  <line x1="479" y1="180" x2="966" y2="180" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- TYPE section -->
+  <text x="495" y="196" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.8">TYPE</text>
+  <!-- Row 1 of type badges -->
+  <rect x="495" y="202" width="50" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="520" y="217" fill="#374151" font-size="10.5" text-anchor="middle">Arrow</text>
+  <rect x="550" y="202" width="72" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="586" y="217" fill="#374151" font-size="10.5" text-anchor="middle">Rectangle</text>
+  <rect x="627" y="202" width="56" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="655" y="217" fill="#374151" font-size="10.5" text-anchor="middle">Ellipse</text>
+  <rect x="688" y="202" width="48" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="712" y="217" fill="#374151" font-size="10.5" text-anchor="middle">Cloud</text>
+  <rect x="741" y="202" width="60" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="771" y="217" fill="#374151" font-size="10.5" text-anchor="middle">Polyline</text>
+  <rect x="806" y="202" width="40" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="826" y="217" fill="#374151" font-size="10.5" text-anchor="middle">Text</text>
+  <!-- Row 2 of type badges -->
+  <rect x="495" y="228" width="76" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="533" y="243" fill="#374151" font-size="10.5" text-anchor="middle">Highlighter</text>
+  <rect x="576" y="228" width="38" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="595" y="243" fill="#374151" font-size="10.5" text-anchor="middle">Pen</text>
+  <rect x="619" y="228" width="72" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="655" y="243" fill="#374151" font-size="10.5" text-anchor="middle">Dimension</text>
+  <rect x="696" y="228" width="54" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="723" y="243" fill="#374151" font-size="10.5" text-anchor="middle">Radius</text>
+  <rect x="755" y="228" width="46" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="778" y="243" fill="#374151" font-size="10.5" text-anchor="middle">Angle</text>
+  <line x1="479" y1="258" x2="966" y2="258" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Row 3: Leader, Stamp, Photo -->
+  <rect x="495" y="264" width="52" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="521" y="279" fill="#374151" font-size="10.5" text-anchor="middle">Leader</text>
+  <rect x="552" y="264" width="48" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="576" y="279" fill="#374151" font-size="10.5" text-anchor="middle">Stamp</text>
+  <rect x="605" y="264" width="48" height="22" rx="11" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="629" y="279" fill="#374151" font-size="10.5" text-anchor="middle">Photo</text>
+  <line x1="479" y1="294" x2="966" y2="294" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- SAVED PRESETS -->
+  <text x="495" y="312" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.8">SAVED PRESETS</text>
+  <text x="495" y="334" fill="#2EA8A8" font-size="12">+ Save current</text>
+  <line x1="479" y1="344" x2="966" y2="344" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- P2 PAGE 1 row -->
+  <rect x="487" y="352" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="505" y="363" fill="#374151" font-size="12" font-weight="600">PAGE 1</text>
+  <text x="553" y="363" fill="#6B7280" font-size="12">10</text>
+  <line x1="479" y1="374" x2="966" y2="374" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- P2 Leader (expanded) row -->
+  <rect x="479" y="374" width="487" height="36" fill="#F9FAFB"/>
+  <rect x="487" y="384" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="504" y="394" fill="#6B7280" font-size="10">▼</text>
+  <rect x="517" y="384" width="12" height="12" rx="1" fill="#EF4444"/>
+  <rect x="533" y="384" width="12" height="12" rx="1" fill="none" stroke="#6B7280" stroke-width="1.1"/>
+  <path d="M535 387 L537 391 L541 391" fill="none" stroke="#6B7280" stroke-width="0.9"/>
+  <text x="551" y="395" fill="#374151" font-size="13" font-weight="500">Leader</text>
+  <circle cx="949" cy="390" r="5" fill="#374151"/>
+  <line x1="479" y1="410" x2="966" y2="410" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- P2 detail rows -->
+  <text x="503" y="426" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">AUTHOR</text>
+  <text x="626" y="426" fill="#374151" font-size="12">—</text>
+  <line x1="479" y1="434" x2="966" y2="434" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="503" y="449" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">STATUS</text>
+  <text x="626" y="449" fill="#374151" font-size="12">none</text>
+  <line x1="479" y1="457" x2="966" y2="457" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="503" y="472" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">LAYER</text>
+  <text x="626" y="472" fill="#374151" font-size="12">—</text>
+  <line x1="479" y1="480" x2="966" y2="480" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="503" y="495" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">COLOR</text>
+  <rect x="624" y="486" width="12" height="12" rx="1" fill="#EF4444"/>
+  <text x="640" y="496" fill="#374151" font-size="12">#ef4444</text>
+  <line x1="479" y1="503" x2="966" y2="503" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="503" y="518" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">WIDTH / OPACITY</text>
+  <text x="664" y="518" fill="#374151" font-size="12">8px · 100%</text>
+  <line x1="479" y1="526" x2="966" y2="526" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="503" y="541" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">CREATED</text>
+  <text x="626" y="541" fill="#374151" font-size="12">08/06/2026, 07:00:21</text>
+  <line x1="479" y1="549" x2="966" y2="549" stroke="#F3F4F6" stroke-width="1"/>
+
+  <text x="503" y="564" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">LINK</text>
+  <text x="626" y="564" fill="#2EA8A8" font-size="12">+ Add link</text>
+  <line x1="479" y1="572" x2="966" y2="572" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- P2 COMMENTS -->
+  <rect x="479" y="572" width="487" height="28" fill="#F9FAFB"/>
+  <text x="503" y="590" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">COMMENTS</text>
+  <text x="571" y="590" fill="#9CA3AF" font-size="10">(1)</text>
+  <line x1="479" y1="600" x2="966" y2="600" stroke="#E5E7EB" stroke-width="1"/>
+
+  <circle cx="499" cy="621" r="12" fill="#2EA8A8" fill-opacity="0.85"/>
+  <text x="499" y="625" fill="#FFFFFF" font-size="9" font-weight="700" text-anchor="middle">K</text>
+  <text x="517" y="617" fill="#111827" font-size="12" font-weight="600">Kumar</text>
+  <text x="559" y="617" fill="#9CA3AF" font-size="11">4h ago</text>
+  <rect x="887" y="610" width="12" height="12" rx="2" fill="none" stroke="#D1D5DB" stroke-width="1.1"/>
+  <text x="517" y="633" fill="#374151" font-size="12">@Sathwik Please verify this</text>
+  <line x1="479" y1="644" x2="966" y2="644" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- P2 Comment input -->
+  <rect x="487" y="652" width="412" height="28" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="497" y="670" fill="#9CA3AF" font-size="11">Add a comment... (use @ to mention)</text>
+  <rect x="903" y="652" width="28" height="28" rx="6" fill="#2EA8A8"/>
+  <path d="M909 666 L921 666" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M918 662 L922 666 L918 670" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+
+  <!-- ═══════════════════════════════════════
+       PANEL 3 — EXPORT
+  ════════════════════════════════════════════ -->
+  <rect x="966" y="0" width="474" height="820" fill="#FFFFFF"/>
+
+  <!-- P3 Header -->
+  <rect x="966" y="0" width="474" height="38" fill="#1B8C8C"/>
+  <text x="986" y="24" fill="#FFFFFF" font-size="14" font-weight="600">Export</text>
+  <text x="1426" y="26" fill="rgba(255,255,255,0.7)" font-size="20" text-anchor="middle">×</text>
+
+  <!-- Prepare section -->
+  <text x="986" y="62" fill="#374151" font-size="12" font-weight="600" letter-spacing="0.3">Prepare</text>
+  <line x1="966" y1="70" x2="1440" y2="70" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Flatten markups -->
+  <rect x="986" y="80" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <!-- layers icon -->
+  <line x1="990" y1="96" x2="1018" y2="96" stroke="#6B7280" stroke-width="1.5"/>
+  <line x1="992" y1="100" x2="1016" y2="100" stroke="#6B7280" stroke-width="1.5"/>
+  <line x1="994" y1="104" x2="1014" y2="104" stroke="#6B7280" stroke-width="1.5"/>
+  <text x="1030" y="94" fill="#111827" font-size="13" font-weight="600">Flatten markups</text>
+  <text x="1030" y="108" fill="#6B7280" font-size="11">Download a flattened copy; server copy stays editable</text>
+  <line x1="966" y1="124" x2="1440" y2="124" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Headers and footers -->
+  <rect x="986" y="132" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <rect x="992" y="138" width="24" height="24" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="992" y1="143" x2="1016" y2="143" stroke="#6B7280" stroke-width="1"/>
+  <line x1="992" y1="156" x2="1016" y2="156" stroke="#6B7280" stroke-width="1"/>
+  <text x="1030" y="146" fill="#111827" font-size="13" font-weight="600">Headers and footers</text>
+  <text x="1030" y="160" fill="#6B7280" font-size="11">Apply title block text and download</text>
+  <line x1="966" y1="176" x2="1440" y2="176" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Band-stamp pages -->
+  <rect x="986" y="184" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <rect x="992" y="190" width="24" height="12" rx="1" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <rect x="995" y="206" width="18" height="8" rx="1" fill="none" stroke="#6B7280" stroke-width="1"/>
+  <text x="1030" y="198" fill="#111827" font-size="13" font-weight="600">Band-stamp pages</text>
+  <text x="1030" y="212" fill="#6B7280" font-size="11">Place the same stamp on multiple pages</text>
+  <line x1="966" y1="228" x2="1440" y2="228" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Output section -->
+  <text x="986" y="250" fill="#374151" font-size="12" font-weight="600" letter-spacing="0.3">Output</text>
+  <line x1="966" y1="258" x2="1440" y2="258" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- PDF with markups -->
+  <rect x="986" y="266" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <!-- PDF arrow-down icon -->
+  <rect x="992" y="272" width="18" height="24" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="1001" y1="278" x2="1001" y2="286" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M998 284 L1001 287 L1004 284" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1030" y="280" fill="#111827" font-size="13" font-weight="600">PDF with markups</text>
+  <text x="1030" y="294" fill="#6B7280" font-size="11">Flatten markups and takeoff into a downloadable PDF</text>
+  <line x1="966" y1="310" x2="1440" y2="310" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- PDF for Editable -->
+  <rect x="986" y="318" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <rect x="992" y="324" width="18" height="24" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="996" y1="330" x2="1006" y2="330" stroke="#6B7280" stroke-width="1"/>
+  <line x1="996" y1="334" x2="1006" y2="334" stroke="#6B7280" stroke-width="1"/>
+  <line x1="996" y1="338" x2="1004" y2="338" stroke="#6B7280" stroke-width="1"/>
+  <text x="1030" y="332" fill="#111827" font-size="13" font-weight="600">PDF for Editable</text>
+  <text x="1030" y="346" fill="#6B7280" font-size="11">Standard PDF annotations — editable in Revu Markups List</text>
+  <line x1="966" y1="362" x2="1440" y2="362" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- XFDF for import -->
+  <rect x="986" y="370" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <rect x="992" y="376" width="18" height="24" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="1001" y1="382" x2="1001" y2="390" stroke="#6B7280" stroke-width="1.5"/>
+  <path d="M998 389 L1001 392 L1004 389" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1030" y="384" fill="#111827" font-size="13" font-weight="600">XFDF for import</text>
+  <text x="1030" y="398" fill="#6B7280" font-size="11">Import via Markups List after opening the same drawing PDF</text>
+  <line x1="966" y1="414" x2="1440" y2="414" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Limited page range checkbox -->
+  <rect x="986" y="422" width="14" height="14" rx="3" fill="none" stroke="#D1D5DB" stroke-width="1.3"/>
+  <text x="1006" y="434" fill="#374151" font-size="13">Limited page range</text>
+  <line x1="966" y1="446" x2="1440" y2="446" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Schedule -->
+  <rect x="986" y="454" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <!-- table icon -->
+  <rect x="992" y="460" width="24" height="18" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="1004" y1="460" x2="1004" y2="478" stroke="#6B7280" stroke-width="1"/>
+  <line x1="992" y1="467" x2="1016" y2="467" stroke="#6B7280" stroke-width="1"/>
+  <text x="1030" y="468" fill="#111827" font-size="13" font-weight="600">Schedule</text>
+  <text x="1030" y="482" fill="#6B7280" font-size="11">Spreadsheet — lengths, areas, counts per markup</text>
+  <line x1="966" y1="498" x2="1440" y2="498" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Quantity link -->
+  <rect x="986" y="506" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <rect x="992" y="512" width="24" height="18" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="1004" y1="512" x2="1004" y2="530" stroke="#6B7280" stroke-width="1"/>
+  <line x1="992" y1="519" x2="1016" y2="519" stroke="#6B7280" stroke-width="1"/>
+  <text x="1005" y="527" fill="#6B7280" font-size="8" text-anchor="middle">$</text>
+  <text x="1030" y="520" fill="#111827" font-size="13" font-weight="600">Quantity link</text>
+  <text x="1030" y="534" fill="#6B7280" font-size="11">Schedule with unit prices and cost formulas</text>
+  <line x1="966" y1="550" x2="1440" y2="550" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Markups bundle -->
+  <rect x="986" y="558" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <rect x="992" y="564" width="18" height="24" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="1001" y1="578" x2="1001" y2="586" stroke="#6B7280" stroke-width="1.5"/>
+  <path d="M998 585 L1001 588 L1004 585" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1030" y="572" fill="#111827" font-size="13" font-weight="600">Markups bundle</text>
+  <text x="1030" y="586" fill="#6B7280" font-size="11">Export annotations as JSON for backup or transfer</text>
+  <line x1="966" y1="602" x2="1440" y2="602" stroke="#F3F4F6" stroke-width="1"/>
+
+  <!-- Import markups -->
+  <rect x="986" y="610" width="36" height="36" rx="6" fill="#F3F4F6"/>
+  <rect x="992" y="616" width="18" height="24" rx="2" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="1001" y1="622" x2="1001" y2="630" stroke="#6B7280" stroke-width="1.5"/>
+  <path d="M998 623 L1001 620 L1004 623" fill="none" stroke="#6B7280" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1030" y="624" fill="#111827" font-size="13" font-weight="600">Import markups</text>
+  <text x="1030" y="638" fill="#6B7280" font-size="11">Restore or merge a JSON markup bundle</text>
+
+</svg>

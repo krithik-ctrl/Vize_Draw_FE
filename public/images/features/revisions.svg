@@ -1,0 +1,461 @@
+<svg width="1456" height="800" viewBox="0 0 1456 800" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif">
+
+  <!-- Page background -->
+  <rect width="1456" height="800" fill="#F3F4F6"/>
+
+  <!-- ══════════════════════════════════
+       TOP NAV BAR (teal)
+  ═══════════════════════════════════════ -->
+  <rect width="1456" height="44" fill="#1B8C8C"/>
+  <!-- back arrow -->
+  <path d="M14 22 L22 15 M14 22 L22 29" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- title -->
+  <text x="32" y="18" fill="#FFFFFF" font-size="13" font-weight="700">Oh-CAPA Music Hall</text>
+  <text x="32" y="33" fill="rgba(255,255,255,0.7)" font-size="11">Revision management</text>
+  <!-- right: moon + avatar -->
+  <text x="1280" y="27" fill="rgba(255,255,255,0.7)" font-size="16">☽</text>
+  <circle cx="1320" cy="22" r="16" fill="#22C55E" fill-opacity="0.8"/>
+  <text x="1320" y="27" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">K</text>
+  <text x="1340" y="18" fill="#FFFFFF" font-size="12" font-weight="600">Kumar</text>
+  <text x="1340" y="31" fill="rgba(255,255,255,0.7)" font-size="10">Member · NaveenTechStudio</text>
+
+  <!-- ══════════════════════════════════
+       SUB-HEADER BAR (white)
+  ═══════════════════════════════════════ -->
+  <rect y="44" width="1456" height="40" fill="#FFFFFF"/>
+  <line x1="0" y1="84" x2="1456" y2="84" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- refresh icon -->
+  <path d="M16 58 Q16 52 22 52 Q28 52 28 58 Q28 64 22 64" fill="none" stroke="#6B7280" stroke-width="1.5"/>
+  <polygon points="14,62 20,58 14,54" fill="#6B7280"/>
+  <text x="38" y="69" fill="#111827" font-size="14" font-weight="700">Revision management</text>
+  <!-- breadcrumb stats -->
+  <text x="235" y="69" fill="#6B7280" font-size="12">Rev 2 → Rev 1  ·  2 revisions  ·</text>
+  <text x="415" y="69" fill="#374151" font-size="12" font-weight="500"> 0 matched</text>
+  <text x="488" y="69" fill="#374151" font-size="12"> · </text>
+  <text x="498" y="69" fill="#374151" font-size="12">3 review</text>
+  <text x="546" y="69" fill="#374151" font-size="12"> · </text>
+  <text x="556" y="69" fill="#3B82F6" font-size="12" font-weight="600">19 added</text>
+  <text x="612" y="69" fill="#374151" font-size="12"> · </text>
+  <text x="622" y="69" fill="#374151" font-size="12">0 removed</text>
+  <text x="684" y="69" fill="#374151" font-size="12">  0 moved</text>
+  <!-- right icons -->
+  <path d="M1278 58 Q1278 52 1284 52 Q1290 52 1290 58 Q1290 64 1284 64" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <circle cx="1312" cy="64" r="5" fill="none" stroke="#6B7280" stroke-width="1.3"/>
+  <line x1="1312" y1="56" x2="1312" y2="62" stroke="#6B7280" stroke-width="1.3"/>
+  <path d="M1308 58 L1316 58" stroke="#6B7280" stroke-width="1.3"/>
+  <rect x="1328" y="54" width="56" height="22" rx="6" fill="#22C55E"/>
+  <text x="1356" y="69" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">$</text>
+  <path d="M1394 58 L1398 62 L1402 58" fill="none" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- ══════════════════════════════════
+       GREEN NOTIFICATION BANNER
+  ═══════════════════════════════════════ -->
+  <rect y="84" width="1456" height="36" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="0"/>
+  <line x1="0" y1="84" x2="1456" y2="84" stroke="#BBF7D0" stroke-width="1"/>
+  <line x1="0" y1="120" x2="1456" y2="120" stroke="#BBF7D0" stroke-width="1"/>
+  <circle cx="24" cy="102" r="8" fill="#16A34A" fill-opacity="0.2" stroke="#16A34A" stroke-width="1.2"/>
+  <path d="M20 102 L23 105 L29 98" fill="none" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="38" y="106" fill="#374151" font-size="13">Revision 2 uploaded.</text>
+  <text x="1436" y="106" fill="#9CA3AF" font-size="18" text-anchor="middle">×</text>
+
+  <!-- ══════════════════════════════════
+       LEFT SIDEBAR — REVISION HISTORY
+  ═══════════════════════════════════════ -->
+  <rect x="0" y="120" width="272" height="680" fill="#FFFFFF"/>
+  <line x1="272" y1="120" x2="272" y2="800" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Sidebar header -->
+  <rect x="0" y="120" width="272" height="40" fill="#FFFFFF"/>
+  <line x1="0" y1="160" x2="272" y2="160" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="16" y="144" fill="#374151" font-size="11" font-weight="700" letter-spacing="0.5">REVISION HISTORY</text>
+  <rect x="186" y="132" width="22" height="18" rx="9" fill="#E5E7EB"/>
+  <text x="197" y="144" fill="#374151" font-size="10" font-weight="700" text-anchor="middle">2</text>
+  <rect x="218" y="132" width="22" height="18" rx="4" fill="none" stroke="#D1D5DB" stroke-width="1.2"/>
+  <text x="229" y="144" fill="#6B7280" font-size="14" text-anchor="middle">+</text>
+
+  <!-- Rev 2 card -->
+  <rect x="8" y="168" width="256" height="112" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <!-- green dot -->
+  <circle cx="22" cy="193" r="6" fill="#22C55E"/>
+  <!-- Rev 2 title -->
+  <text x="34" y="197" fill="#111827" font-size="14" font-weight="700">Rev 2</text>
+  <!-- WORKING badge (teal) -->
+  <rect x="76" y="185" width="60" height="18" rx="9" fill="#2EA8A8" fill-opacity="0.15" stroke="#2EA8A8" stroke-width="1"/>
+  <text x="106" y="197" fill="#2EA8A8" font-size="10" font-weight="600" text-anchor="middle">WORKING</text>
+  <!-- Latest badge -->
+  <rect x="140" y="185" width="42" height="18" rx="9" fill="#F3F4F6"/>
+  <text x="161" y="197" fill="#6B7280" font-size="10" font-weight="500" text-anchor="middle">Latest</text>
+  <!-- icons -->
+  <rect x="194" y="185" width="18" height="18" rx="3" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="203" y="197" fill="#6B7280" font-size="11" text-anchor="middle">↗</text>
+  <text x="232" y="197" fill="#9CA3AF" font-size="14">⋯</text>
+  <!-- CURRENT label -->
+  <text x="22" y="217" fill="#16A34A" font-size="10" font-weight="700" letter-spacing="0.5">CURRENT</text>
+  <line x1="8" y1="224" x2="264" y2="224" stroke="#F3F4F6" stroke-width="1"/>
+  <!-- meta -->
+  <text x="22" y="242" fill="#374151" font-size="12">22 sheets · 8.1 MB</text>
+  <text x="22" y="258" fill="#9CA3AF" font-size="11">Kumar · 09/06/2026 · 03:18 PM</text>
+
+  <!-- Rev 1 card -->
+  <rect x="8" y="292" width="256" height="84" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.2"/>
+  <circle cx="22" cy="316" r="6" fill="#22C55E"/>
+  <text x="34" y="320" fill="#111827" font-size="14" font-weight="700">Rev 1</text>
+  <!-- BASE badge (blue) -->
+  <rect x="76" y="308" width="40" height="18" rx="9" fill="#DBEAFE"/>
+  <text x="96" y="320" fill="#3B82F6" font-size="10" font-weight="600" text-anchor="middle">BASE</text>
+  <rect x="126" y="308" width="18" height="18" rx="3" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="135" y="320" fill="#6B7280" font-size="11" text-anchor="middle">↗</text>
+  <text x="234" y="320" fill="#9CA3AF" font-size="14">⋯</text>
+  <!-- DRAFT label -->
+  <text x="22" y="338" fill="#9CA3AF" font-size="10" font-weight="700" letter-spacing="0.5">DRAFT</text>
+  <line x1="8" y1="344" x2="264" y2="344" stroke="#F3F4F6" stroke-width="1"/>
+  <text x="22" y="358" fill="#374151" font-size="12">3 sheets · 472.9 KB</text>
+  <text x="22" y="372" fill="#9CA3AF" font-size="11">Kumar · 08/06/2026 · 06:14 AM</text>
+
+  <!-- View all 2 revisions -->
+  <line x1="0" y1="770" x2="272" y2="770" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="136" y="789" fill="#6B7280" font-size="12" text-anchor="middle">≡  View all 2 revisions</text>
+
+
+  <!-- ══════════════════════════════════
+       MAIN CONTENT AREA
+  ═══════════════════════════════════════ -->
+  <rect x="272" y="120" width="1184" height="680" fill="#FFFFFF"/>
+
+  <!-- COMPARING header -->
+  <rect x="272" y="120" width="1184" height="62" fill="#FFFFFF"/>
+  <line x1="272" y1="182" x2="1456" y2="182" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- comparing label -->
+  <text x="292" y="148" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">WORKING (NEWER)</text>
+  <path d="M290 156 L292 152 L294 156" fill="#6B7280"/>
+  <text x="292" y="168" fill="#374151" font-size="11" font-weight="600">⟳  COMPARING</text>
+  <!-- Working dropdown -->
+  <rect x="380" y="158" width="220" height="30" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="392" y="177" fill="#374151" font-size="12">Rev 2 (Draft) / Working (Newer)</text>
+  <text x="590" y="177" fill="#6B7280" font-size="12">▾</text>
+  <!-- swap icon -->
+  <rect x="606" y="163" width="24" height="20" rx="4" fill="#F3F4F6"/>
+  <text x="618" y="177" fill="#6B7280" font-size="12" text-anchor="middle">⇄</text>
+  <!-- BASE (OLDER) label and dropdown -->
+  <text x="640" y="148" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.5">BASE (OLDER)</text>
+  <rect x="636" y="158" width="210" height="30" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="648" y="177" fill="#374151" font-size="12">Rev 1 (Draft) / Base (Older)</text>
+  <text x="836" y="177" fill="#6B7280" font-size="12">▾</text>
+  <!-- right note + swap button -->
+  <text x="900" y="172" fill="#6B7280" font-size="11">Base (older) is compared with Working (newer)</text>
+  <rect x="1326" y="158" width="70" height="28" rx="6" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="1361" y="176" fill="#374151" font-size="12" text-anchor="middle">⇄ Swap</text>
+
+  <!-- TAB BAR -->
+  <rect x="272" y="182" width="1184" height="42" fill="#FFFFFF"/>
+  <line x1="272" y1="224" x2="1456" y2="224" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Sheet comparison (active) -->
+  <text x="300" y="208" fill="#2EA8A8" font-size="13" font-weight="600">⊟  Sheet comparison</text>
+  <line x1="290" y1="224" x2="414" y2="224" stroke="#2EA8A8" stroke-width="2.5"/>
+  <text x="428" y="208" fill="#6B7280" font-size="13">↑  Sheet upload</text>
+  <text x="546" y="208" fill="#6B7280" font-size="13">⊞  Organize pages</text>
+  <text x="678" y="208" fill="#6B7280" font-size="13">⊙  Workflow</text>
+  <text x="768" y="208" fill="#6B7280" font-size="13">☰  Sheet registry</text>
+  <text x="876" y="208" fill="#6B7280" font-size="13">⊕  Activities</text>
+
+  <!-- CONTROLS ROW -->
+  <rect x="272" y="224" width="1184" height="50" fill="#FFFFFF"/>
+  <line x1="272" y1="274" x2="1456" y2="274" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Order check toggle ON (green) -->
+  <rect x="292" y="240" width="36" height="20" rx="10" fill="#22C55E"/>
+  <circle cx="318" cy="250" r="8" fill="#FFFFFF"/>
+  <text x="334" y="254" fill="#374151" font-size="12">Order check</text>
+  <rect x="414" y="240" width="38" height="20" rx="10" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+  <text x="433" y="254" fill="#16A34A" font-size="11" font-weight="600" text-anchor="middle">Pass</text>
+  <!-- Count check toggle ON (teal) -->
+  <rect x="462" y="240" width="36" height="20" rx="10" fill="#2EA8A8"/>
+  <circle cx="488" cy="250" r="8" fill="#FFFFFF"/>
+  <text x="504" y="254" fill="#374151" font-size="12">Count check</text>
+  <rect x="590" y="240" width="44" height="20" rx="10" fill="#FEF3C7" stroke="#FCD34D" stroke-width="1"/>
+  <text x="612" y="254" fill="#D97706" font-size="11" font-weight="600" text-anchor="middle">3 ≠ 22</text>
+  <!-- Default carry-forward toggle OFF -->
+  <rect x="646" y="240" width="36" height="20" rx="10" fill="#D1D5DB"/>
+  <circle cx="656" cy="250" r="8" fill="#FFFFFF"/>
+  <text x="688" y="254" fill="#374151" font-size="12">Default carry-forward</text>
+  <!-- Fuzzy sheet toggle OFF -->
+  <rect x="826" y="240" width="36" height="20" rx="10" fill="#D1D5DB"/>
+  <circle cx="836" cy="250" r="8" fill="#FFFFFF"/>
+  <text x="868" y="254" fill="#374151" font-size="12">Fuzzy sheet # (OCR)</text>
+  <!-- Add window button -->
+  <rect x="1064" y="238" width="100" height="26" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="1114" y="255" fill="#374151" font-size="12" text-anchor="middle">+ Add window</text>
+  <!-- Auto map (active dark) -->
+  <rect x="1172" y="238" width="82" height="26" rx="6" fill="#111827"/>
+  <text x="1213" y="255" fill="#FFFFFF" font-size="12" text-anchor="middle">Auto map</text>
+  <!-- Manual -->
+  <rect x="1258" y="238" width="60" height="26" rx="6" fill="none" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="1288" y="255" fill="#374151" font-size="12" text-anchor="middle">Manual</text>
+  <!-- zoom slider -->
+  <rect x="1330" y="247" width="80" height="8" rx="4" fill="#D1D5DB"/>
+  <rect x="1330" y="247" width="50" height="8" rx="4" fill="#1B8C8C"/>
+  <circle cx="1380" cy="251" r="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+
+  <!-- FILTER PILLS ROW -->
+  <rect x="272" y="274" width="1184" height="44" fill="#FFFFFF"/>
+  <line x1="272" y1="318" x2="1456" y2="318" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- All 22 (active teal) -->
+  <rect x="292" y="286" width="62" height="24" rx="12" fill="#2EA8A8"/>
+  <text x="323" y="302" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">All  22</text>
+  <!-- Matched 0 -->
+  <circle cx="370" cy="298" r="4" fill="#22C55E"/>
+  <text x="380" y="302" fill="#374151" font-size="12">Matched  0</text>
+  <!-- Review 3 -->
+  <circle cx="462" cy="298" r="4" fill="#6B7280"/>
+  <text x="472" y="302" fill="#374151" font-size="12">Review  3</text>
+  <!-- Moved 0 -->
+  <circle cx="544" cy="298" r="4" fill="#F59E0B"/>
+  <text x="554" y="302" fill="#374151" font-size="12">Moved  0</text>
+  <!-- Added 19 -->
+  <circle cx="620" cy="298" r="4" fill="#3B82F6"/>
+  <text x="630" y="302" fill="#374151" font-size="12">Added  19</text>
+  <!-- Removed 0 -->
+  <circle cx="706" cy="298" r="4" fill="#EF4444"/>
+  <text x="716" y="302" fill="#374151" font-size="12">Removed  0</text>
+
+  <!-- ══════════════════════════════════
+       COMPARISON GRID
+  ═══════════════════════════════════════ -->
+  <rect x="272" y="318" width="1184" height="358" fill="#F8FAFC"/>
+
+  <!-- Left column labels -->
+  <!-- WINDOW 1 · WORKING -->
+  <text x="284" y="340" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.3">WINDOW 1 · WORKING</text>
+  <text x="284" y="360" fill="#111827" font-size="14" font-weight="700">Rev 2</text>
+  <text x="284" y="376" fill="#6B7280" font-size="11">Kumar · 09/06</text>
+  <!-- mapping label -->
+  <text x="284" y="492" fill="#9CA3AF" font-size="11">mapping</text>
+  <!-- WINDOW 2 · BASE -->
+  <text x="284" y="540" fill="#9CA3AF" font-size="10" font-weight="600" letter-spacing="0.3">WINDOW 2 · BASE</text>
+  <text x="284" y="560" fill="#111827" font-size="14" font-weight="700">Rev 1</text>
+  <text x="284" y="576" fill="#6B7280" font-size="11">Kumar · 08/06</text>
+
+  <!-- Vertical column separators -->
+  <line x1="404" y1="318" x2="404" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="534" y1="318" x2="534" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="664" y1="318" x2="664" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="786" y1="318" x2="786" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="908" y1="318" x2="908" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="1038" y1="318" x2="1038" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="1168" y1="318" x2="1168" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="1298" y1="318" x2="1298" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Horizontal row separators -->
+  <line x1="272" y1="460" x2="1456" y2="460" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="272" y1="530" x2="1456" y2="530" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="272" y1="646" x2="1456" y2="646" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ── PAGE THUMBNAILS MACRO (draws a mini drawing preview) ── -->
+  <!-- Page 1 (REVIEW) -->
+  <rect x="413" y="330" width="110" height="80" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="423" y1="345" x2="513" y2="345" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="423" y1="355" x2="513" y2="355" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="423" y1="365" x2="513" y2="365" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="423" y1="375" x2="513" y2="375" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="423" y1="385" x2="513" y2="385" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="450" y1="330" x2="450" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="480" y1="330" x2="480" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="468" y="422" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 1</text>
+  <text x="468" y="434" fill="#9CA3AF" font-size="10" text-anchor="middle">p1</text>
+  <rect x="413" y="440" width="110" height="18" rx="3" fill="#F3F4F6"/>
+  <text x="468" y="453" fill="#6B7280" font-size="9" text-anchor="middle">PAGE 1 / REVIEW · by position</text>
+
+  <!-- Page 2 (REVIEW) -->
+  <rect x="543" y="330" width="110" height="80" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="553" y1="345" x2="643" y2="345" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="553" y1="355" x2="643" y2="355" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="553" y1="365" x2="643" y2="365" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="553" y1="375" x2="643" y2="375" stroke="#CBD5E1" stroke-width="0.6"/>
+  <!-- small colored marks to indicate markups on page 2 -->
+  <rect x="570" y="348" width="20" height="4" rx="1" fill="#EF4444" fill-opacity="0.5"/>
+  <line x1="580" y1="330" x2="580" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="610" y1="330" x2="610" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="598" y="422" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 2</text>
+  <text x="598" y="434" fill="#9CA3AF" font-size="10" text-anchor="middle">p2</text>
+  <rect x="543" y="440" width="110" height="18" rx="3" fill="#F3F4F6"/>
+  <text x="598" y="453" fill="#6B7280" font-size="9" text-anchor="middle">PAGE 2 / REVIEW · by position</text>
+
+  <!-- Page 3 (REVIEW) -->
+  <rect x="673" y="330" width="100" height="80" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="683" y1="345" x2="763" y2="345" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="683" y1="358" x2="763" y2="358" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="683" y1="371" x2="763" y2="371" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="683" y1="384" x2="763" y2="384" stroke="#CBD5E1" stroke-width="0.6"/>
+  <rect x="698" y="350" width="14" height="18" rx="1" fill="#D1D5DB"/>
+  <line x1="710" y1="330" x2="710" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="740" y1="330" x2="740" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="723" y="422" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 3</text>
+  <text x="723" y="434" fill="#9CA3AF" font-size="10" text-anchor="middle">p3</text>
+  <rect x="673" y="440" width="100" height="18" rx="3" fill="#F3F4F6"/>
+  <text x="723" y="453" fill="#6B7280" font-size="9" text-anchor="middle">PAGE 3 / REVIEW · by position</text>
+
+  <!-- Pages 4-8 (ADDED) — blue labels -->
+  <!-- Page 4 -->
+  <rect x="795" y="330" width="100" height="80" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="805" y1="344" x2="885" y2="344" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="805" y1="357" x2="885" y2="357" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="805" y1="370" x2="885" y2="370" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="805" y1="383" x2="885" y2="383" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="830" y1="330" x2="830" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="860" y1="330" x2="860" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="845" y="422" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 4</text>
+  <text x="845" y="434" fill="#9CA3AF" font-size="10" text-anchor="middle">p4</text>
+  <rect x="795" y="440" width="100" height="18" rx="3" fill="#EFF6FF"/>
+  <text x="845" y="453" fill="#3B82F6" font-size="9" font-weight="600" text-anchor="middle">PAGE 4 / ADDED</text>
+
+  <!-- Page 5 -->
+  <rect x="917" y="330" width="108" height="80" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="927" y1="344" x2="1015" y2="344" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="927" y1="357" x2="1015" y2="357" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="927" y1="370" x2="1015" y2="370" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="927" y1="383" x2="1015" y2="383" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="955" y1="330" x2="955" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="985" y1="330" x2="985" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="971" y="422" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 5</text>
+  <text x="971" y="434" fill="#9CA3AF" font-size="10" text-anchor="middle">p5</text>
+  <rect x="917" y="440" width="108" height="18" rx="3" fill="#EFF6FF"/>
+  <text x="971" y="453" fill="#3B82F6" font-size="9" font-weight="600" text-anchor="middle">PAGE 5 / ADDED</text>
+
+  <!-- Page 6 -->
+  <rect x="1047" y="330" width="108" height="80" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="1057" y1="344" x2="1145" y2="344" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1057" y1="357" x2="1145" y2="357" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1057" y1="370" x2="1145" y2="370" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1085" y1="330" x2="1085" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1115" y1="330" x2="1115" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="1101" y="422" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 6</text>
+  <text x="1101" y="434" fill="#9CA3AF" font-size="10" text-anchor="middle">p6</text>
+  <rect x="1047" y="440" width="108" height="18" rx="3" fill="#EFF6FF"/>
+  <text x="1101" y="453" fill="#3B82F6" font-size="9" font-weight="600" text-anchor="middle">PAGE 6 / ADDED</text>
+
+  <!-- Page 7 -->
+  <rect x="1177" y="330" width="108" height="80" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="1187" y1="344" x2="1275" y2="344" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1187" y1="357" x2="1275" y2="357" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1215" y1="330" x2="1215" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1245" y1="330" x2="1245" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="1231" y="422" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 7</text>
+  <text x="1231" y="434" fill="#9CA3AF" font-size="10" text-anchor="middle">p7</text>
+  <rect x="1177" y="440" width="108" height="18" rx="3" fill="#EFF6FF"/>
+  <text x="1231" y="453" fill="#3B82F6" font-size="9" font-weight="600" text-anchor="middle">PAGE 7 / ADDED</text>
+
+  <!-- Page 8 -->
+  <rect x="1307" y="330" width="108" height="80" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="1317" y1="344" x2="1405" y2="344" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1317" y1="357" x2="1405" y2="357" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1345" y1="330" x2="1345" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="1375" y1="330" x2="1375" y2="410" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="1361" y="422" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 8</text>
+  <text x="1361" y="434" fill="#9CA3AF" font-size="10" text-anchor="middle">p8</text>
+  <rect x="1307" y="440" width="108" height="18" rx="3" fill="#EFF6FF"/>
+  <text x="1361" y="453" fill="#3B82F6" font-size="9" font-weight="600" text-anchor="middle">PAGE 8 / ADDED</text>
+
+  <!-- MAPPING ROW (pages 1-3: REVIEW ⊕, pages 4-8: ADDED +) -->
+  <!-- Review cells -->
+  <text x="468" y="482" fill="#6B7280" font-size="11" font-weight="600" text-anchor="middle">REVIEW</text>
+  <circle cx="468" cy="512" r="9" fill="none" stroke="#D1D5DB" stroke-width="1.3"/>
+  <text x="468" y="516" fill="#9CA3AF" font-size="11" text-anchor="middle">?</text>
+  <text x="598" y="482" fill="#6B7280" font-size="11" font-weight="600" text-anchor="middle">REVIEW</text>
+  <circle cx="598" cy="512" r="9" fill="none" stroke="#D1D5DB" stroke-width="1.3"/>
+  <text x="598" y="516" fill="#9CA3AF" font-size="11" text-anchor="middle">?</text>
+  <text x="723" y="482" fill="#6B7280" font-size="11" font-weight="600" text-anchor="middle">REVIEW</text>
+  <circle cx="723" cy="512" r="9" fill="none" stroke="#D1D5DB" stroke-width="1.3"/>
+  <text x="723" y="516" fill="#9CA3AF" font-size="11" text-anchor="middle">?</text>
+  <!-- Added cells -->
+  <text x="845" y="482" fill="#3B82F6" font-size="11" font-weight="600" text-anchor="middle">ADDED</text>
+  <text x="845" y="514" fill="#3B82F6" font-size="18" text-anchor="middle">+</text>
+  <text x="971" y="482" fill="#3B82F6" font-size="11" font-weight="600" text-anchor="middle">ADDED</text>
+  <text x="971" y="514" fill="#3B82F6" font-size="18" text-anchor="middle">+</text>
+  <text x="1101" y="482" fill="#3B82F6" font-size="11" font-weight="600" text-anchor="middle">ADDED</text>
+  <text x="1101" y="514" fill="#3B82F6" font-size="18" text-anchor="middle">+</text>
+  <text x="1231" y="482" fill="#3B82F6" font-size="11" font-weight="600" text-anchor="middle">ADDED</text>
+  <text x="1231" y="514" fill="#3B82F6" font-size="18" text-anchor="middle">+</text>
+  <text x="1361" y="482" fill="#3B82F6" font-size="11" font-weight="600" text-anchor="middle">ADDED</text>
+  <text x="1361" y="514" fill="#3B82F6" font-size="18" text-anchor="middle">+</text>
+
+  <!-- WINDOW 2 BASE — Rev 1 thumbnails (pages 1-3) -->
+  <rect x="413" y="536" width="110" height="70" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="423" y1="550" x2="513" y2="550" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="423" y1="562" x2="513" y2="562" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="423" y1="574" x2="513" y2="574" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="450" y1="536" x2="450" y2="606" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="480" y1="536" x2="480" y2="606" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="468" y="618" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 1</text>
+  <text x="468" y="630" fill="#9CA3AF" font-size="10" text-anchor="middle">p1</text>
+  <rect x="413" y="636" width="110" height="18" rx="3" fill="#F3F4F6"/>
+  <text x="468" y="649" fill="#6B7280" font-size="9" text-anchor="middle">PAGE 1 / REVIEW · by position</text>
+
+  <rect x="543" y="536" width="110" height="70" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="553" y1="550" x2="643" y2="550" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="553" y1="562" x2="643" y2="562" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="580" y1="536" x2="580" y2="606" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="610" y1="536" x2="610" y2="606" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="598" y="618" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 2</text>
+  <text x="598" y="630" fill="#9CA3AF" font-size="10" text-anchor="middle">p2</text>
+  <rect x="543" y="636" width="110" height="18" rx="3" fill="#F3F4F6"/>
+  <text x="598" y="649" fill="#6B7280" font-size="9" text-anchor="middle">PAGE 2 / REVIEW · by position</text>
+
+  <rect x="673" y="536" width="100" height="70" rx="3" fill="#F5F7FA" stroke="#D1D5DB" stroke-width="1"/>
+  <line x1="683" y1="550" x2="763" y2="550" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="683" y1="563" x2="763" y2="563" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="683" y1="576" x2="763" y2="576" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="710" y1="536" x2="710" y2="606" stroke="#CBD5E1" stroke-width="0.6"/>
+  <line x1="740" y1="536" x2="740" y2="606" stroke="#CBD5E1" stroke-width="0.6"/>
+  <text x="723" y="618" fill="#374151" font-size="11" font-weight="600" text-anchor="middle">Page 3</text>
+  <text x="723" y="630" fill="#9CA3AF" font-size="10" text-anchor="middle">p3</text>
+  <rect x="673" y="636" width="100" height="18" rx="3" fill="#F3F4F6"/>
+  <text x="723" y="649" fill="#6B7280" font-size="9" text-anchor="middle">PAGE 3 / REVIEW · by position</text>
+
+  <!-- Window 2 "not in Rev 1" empty cells (pages 4-8) -->
+  <rect x="795" y="536" width="100" height="70" rx="3" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="845" y="575" fill="#9CA3AF" font-size="16" text-anchor="middle">—</text>
+  <text x="845" y="649" fill="#9CA3AF" font-size="10" text-anchor="middle">not in Rev 1</text>
+
+  <rect x="917" y="536" width="108" height="70" rx="3" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="971" y="575" fill="#9CA3AF" font-size="16" text-anchor="middle">—</text>
+  <text x="971" y="649" fill="#9CA3AF" font-size="10" text-anchor="middle">not in Rev 1</text>
+
+  <rect x="1047" y="536" width="108" height="70" rx="3" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1101" y="575" fill="#9CA3AF" font-size="16" text-anchor="middle">—</text>
+  <text x="1101" y="649" fill="#9CA3AF" font-size="10" text-anchor="middle">not in Rev 1</text>
+
+  <rect x="1177" y="536" width="108" height="70" rx="3" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1231" y="575" fill="#9CA3AF" font-size="16" text-anchor="middle">—</text>
+  <text x="1231" y="649" fill="#9CA3AF" font-size="10" text-anchor="middle">not in Rev 1</text>
+
+  <rect x="1307" y="536" width="108" height="70" rx="3" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="1361" y="575" fill="#9CA3AF" font-size="16" text-anchor="middle">—</text>
+  <text x="1361" y="649" fill="#9CA3AF" font-size="10" text-anchor="middle">not in Rev 1</text>
+
+  <!-- ══════════════════════════════════
+       SYNC SCROLL BAR
+  ═══════════════════════════════════════ -->
+  <rect x="272" y="676" width="1184" height="30" fill="#FFFFFF"/>
+  <line x1="272" y1="676" x2="1456" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="292" y="695" fill="#2EA8A8" font-size="12">⟳  Sync scroll on</text>
+  <!-- progress bar -->
+  <rect x="390" y="688" width="320" height="6" rx="3" fill="#D1D5DB"/>
+  <rect x="390" y="688" width="160" height="6" rx="3" fill="#2EA8A8"/>
+  <text x="1440" y="695" fill="#6B7280" font-size="11" text-anchor="end">Both windows scroll together</text>
+
+  <!-- ══════════════════════════════════
+       BOTTOM ACTION BAR
+  ═══════════════════════════════════════ -->
+  <rect x="272" y="706" width="1184" height="44" fill="#FFFFFF"/>
+  <line x1="272" y1="706" x2="1456" y2="706" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="292" y="732" fill="#374151" font-size="12">22 mapped columns  ·  order check passed  ·  3 ≠ 22</text>
+  <!-- XLSX report button -->
+  <rect x="1138" y="716" width="90" height="28" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="1183" y="734" fill="#374151" font-size="12" text-anchor="middle">XLSX report</text>
+  <!-- Carry markups button -->
+  <rect x="1236" y="716" width="106" height="28" rx="6" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+  <text x="1289" y="734" fill="#374151" font-size="12" text-anchor="middle">Carry markups</text>
+  <!-- Overlay compare button (green) -->
+  <rect x="1350" y="716" width="100" height="28" rx="6" fill="#16A34A"/>
+  <text x="1400" y="734" fill="#FFFFFF" font-size="12" text-anchor="middle" font-weight="500">⊞ Overlay compare</text>
+
+</svg>
