@@ -54,7 +54,7 @@ export default function LeadForm({
     message: "",
   });
   const [touched, setTouched] = useState<Partial<Record<FieldName, boolean>>>({});
-  const [serverErrors, setServerErrors] = useState<Partial<Record<FieldName, string>>>({});
+  const [serverErrors, setServerErrors] = useState<Partial<Record<FieldName | "reason", string>>>({});
 
   const setValue = (name: FieldName, value: string) => {
     setValues((prev) => ({ ...prev, [name]: value }));
@@ -85,6 +85,8 @@ export default function LeadForm({
     });
     setTouched({});
     setServerErrors({});
+    setSubmitError("");
+    setHoneypot("");
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -124,27 +126,30 @@ export default function LeadForm({
       });
       const data = await res.json().catch(() => ({ ok: false }));
 
-      if (data.ok) {
+      if (res.ok && data?.ok === true) {
         setStatus("sent");
         return;
       }
 
-      if (data.fieldErrors) {
-        setServerErrors(data.fieldErrors);
+      const visibleErrors = Object.fromEntries(
+        Object.entries(data?.fieldErrors || {}).filter(([field, message]) =>
+          (fieldNames.includes(field as FieldName) || (field === "reason" && variant === "contact")) &&
+          typeof message === "string"
+        )
+      );
+      if (Object.keys(visibleErrors).length) {
+        setServerErrors(visibleErrors);
         setSubmitError("Please fix the highlighted fields and try again.");
         setStatus("idle");
         return;
       }
 
-      throw new Error(
-        data.error || `Something went wrong. Please email us at ${FALLBACK_EMAIL}.`
-      );
-    } catch (err) {
       setSubmitError(
-        err instanceof Error
-          ? err.message
-          : `Something went wrong. Please email us at ${FALLBACK_EMAIL}.`
+        typeof data?.error === "string" ? data.error : `Something went wrong. Please email us at ${FALLBACK_EMAIL}.`
       );
+      setStatus("idle");
+    } catch {
+      setSubmitError(`Something went wrong. Please email us at ${FALLBACK_EMAIL}.`);
       setStatus("idle");
     }
   };
@@ -269,8 +274,11 @@ export default function LeadForm({
                 <div className="relative">
                   <select
                     name="reason"
-                    className={`${fieldBase} appearance-none pr-10`}
+                    className={`${serverErrors.reason ? fieldError : fieldBase} appearance-none pr-10`}
                     defaultValue={reasons[0]}
+                    aria-invalid={!!serverErrors.reason}
+                    aria-describedby={serverErrors.reason ? "reason-error" : undefined}
+                    onChange={() => setServerErrors((prev) => ({ ...prev, reason: undefined }))}
                   >
                     {reasons.map((r) => (
                       <option key={r} className="bg-ink text-vellum">
@@ -282,6 +290,11 @@ export default function LeadForm({
                     ▾
                   </span>
                 </div>
+                {serverErrors.reason && (
+                  <p id="reason-error" role="alert" className="text-xs text-markup">
+                    {serverErrors.reason}
+                  </p>
+                )}
               </label>
             )}
 

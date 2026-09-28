@@ -1,7 +1,4 @@
 export const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-// Loosely matches international dial patterns: optional leading +,
-// digits/spaces/dashes/dots/parentheses, 7-15 digits total.
-export const PHONE_PATTERN = /^\+?[0-9()\-.\s]{7,20}$/;
 
 export function getEmailError(value: string) {
   const trimmed = value.trim();
@@ -12,10 +9,9 @@ export function getEmailError(value: string) {
 
 export function getPhoneError(value: string) {
   const trimmed = value.trim();
-  if (!trimmed) return ""; // phone is optional
-  const digitCount = trimmed.replace(/\D/g, "").length;
-  if (!PHONE_PATTERN.test(trimmed) || digitCount < 7 || digitCount > 15) {
-    return "Enter a valid phone number.";
+  // The contact API accepts an optional phone string in any format.
+  if (trimmed.length > 40) {
+    return "Phone must be 40 characters or fewer.";
   }
   return "";
 }

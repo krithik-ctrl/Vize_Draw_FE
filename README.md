@@ -78,5 +78,48 @@ Design-system additions live at the bottom of `app/globals.css` (aurora drift, c
 
 - **Testimonials** are clearly framed as *representative personas* (the original site has none) — they were added per the build brief and use no real named people or companies.
 - In-app launch links point to `http://localhost:5173` and billing routes, matching the source site's app handoff.
-- All forms are front-end demonstrations with animated success states (no backend wired up).
+- Contact and demo forms submit through the server-side integration described below.
 - No `localStorage`/`sessionStorage` is used anywhere.
+
+## Contact API integration and local testing
+
+The browser posts to the same-origin `/api/lead`. That Next.js route validates and
+forwards JSON to `https://api.vizedraw.com/api/v1/public/contact`. The external
+VizeDraw backend owns storage, Admin → Website enquiries, and SES notifications.
+This website does not send email directly.
+
+No `.env` file is required to use the default endpoint and source tag. Optional
+server-only settings (restart the development server after changing them):
+
+- `VIZEDRAW_CONTACT_API_URL`: endpoint override, useful for a local mock.
+- `VIZEDRAW_CONTACT_SOURCE`: agreed fixed site tag, at most 64 characters after
+  trimming; defaults to `vizedraw-marketing-site`. An oversized value produces a
+  configuration error without forwarding a submission.
+- `WEBSITE_CONTACT_SECRET`: set only if supplied privately by VizeDraw. Sent as
+  `X-Contact-Secret` by the server, never the browser. If the backend requires a
+  secret, its absence produces upstream `403`; do not invent a value.
+
+Run `npm run dev -- --port 3000`, then open `http://localhost:3000/contact` (or
+`/request-demo`). Use a reachable email and clearly label the message as a test.
+Phone is optional and accepts any format up to 40 characters. Leave the hidden
+`website` field empty. Submissions to the default endpoint are real and may email
+sales; submit manually only when ready.
+
+In browser DevTools Network, expect `POST http://localhost:3000/api/lead` with
+JSON, camelCase names, and an empty `website`. The server sends snake_case names,
+the mapped reason, fixed source tag, and `website: ""` upstream. Blank phone is
+omitted. The external call and optional secret are not browser requests.
+
+The development terminal logs the upstream HTTP status without request headers,
+payloads, or response bodies. Upstream `201` becomes browser `200 {"ok":true}`;
+`422` shows validation errors; `429` shows a wait message; upstream `403`, `503`,
+unexpected statuses, and transport failures show the sales-email fallback
+(browser `503` for these proxy failures). There are no automatic retries. After a
+network failure or `503`, retry at most once: the external API does not deduplicate.
+
+Ask the backend owner to find the exact test in Admin → Website enquiries and
+check its `source` and `emailed` status. Email failure must not lose a stored lead.
+No external API CORS allow-list change is required for this server-side flow.
+
+Offline integration checks: `node --test tests/contact-api.test.cjs`. These mock
+all outbound requests and never submit to the client API.
